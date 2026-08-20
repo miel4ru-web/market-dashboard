@@ -5,7 +5,8 @@ config/sectors.json(GICS 11개 섹터, SPDR Select Sector ETF)을 기준으로
 - 가중치: SPY(S&P500 ETF)의 실제 섹터 비중(yf.Ticker("SPY").funds_data.sector_weightings)
 - 등락률: 섹터 ETF들의 최근 종가 변화
 를 곱해 "기여도"를 계산하고, 기여도 절대값 상위 N개 섹터에 한해 yfinance
-Ticker.news로 관련 뉴스를 붙여 data/sectors.json을 만든다.
+Ticker.news로 관련 뉴스를 붙여 data/sectors.json을 만든다. 뉴스 정렬/필터링
+규칙은 news_ranking.py(fetch_sector_data_kr.py와 공유) 참고.
 
 market-dashboard의 기존 지수 대시보드(fetch_market_data.py, data/latest.json)와
 독립적으로 동작한다 — 이 스크립트가 실패해도 기존 데이터 갱신을 막지 않도록
@@ -19,6 +20,8 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import yfinance as yf
+
+from news_ranking import rank_news
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
@@ -137,12 +140,14 @@ def fetch_sector_news(ticker: str, max_age_hours: int, limit: int) -> list[dict]
                 "title": title,
                 "publisher": publisher or "알 수 없음",
                 "url": url,
-                "published_at": published_at.isoformat(),
+                "published_at": published_at,
             }
         )
 
-    news.sort(key=lambda n: n["published_at"], reverse=True)
-    return news[:limit]
+    news = rank_news(news)[:limit]
+    for n in news:
+        n["published_at"] = n["published_at"].isoformat()
+    return news
 
 
 def main() -> None:

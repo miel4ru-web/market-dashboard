@@ -34,6 +34,8 @@ from pathlib import Path
 
 import yfinance as yf
 
+from news_ranking import rank_news
+
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
@@ -129,12 +131,14 @@ def fetch_sector_news(news_ticker: str, max_age_hours: int, limit: int) -> list[
                 "title": title,
                 "publisher": publisher or "알 수 없음",
                 "url": url,
-                "published_at": published_at.isoformat(),
+                "published_at": published_at,
             }
         )
 
-    news.sort(key=lambda n: n["published_at"], reverse=True)
-    return news[:limit]
+    news = rank_news(news)[:limit]
+    for n in news:
+        n["published_at"] = n["published_at"].isoformat()
+    return news
 
 
 def main() -> None:

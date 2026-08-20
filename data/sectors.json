@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T19:14:00.225777+09:00",
+  "generated_at": "2026-08-20T19:35:16.738141+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -23,16 +23,16 @@
           "published_at": "2026-08-20T00:24:40+00:00"
         },
         {
-          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-194639070.html",
-          "published_at": "2026-08-19T19:46:39+00:00"
+          "title": "Stock Market News for Aug 19, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-19-132100663.html",
+          "published_at": "2026-08-19T13:21:00+00:00"
         },
         {
-          "title": "Sector Update: Tech Stocks Decline Wednesday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-decline-wednesday-173218653.html",
-          "published_at": "2026-08-19T17:32:18+00:00"
+          "title": "PTC Stock: Analyst Estimates & Ratings",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/3909863/ptc-stock-analyst-estimates-ratings",
+          "published_at": "2026-08-18T15:25:25+00:00"
         }
       ]
     },
@@ -54,16 +54,16 @@
       "rank": 2,
       "news": [
         {
-          "title": "Sector Update: Healthcare Stocks Gain Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-gain-afternoon-195017114.html",
-          "published_at": "2026-08-19T19:50:17+00:00"
+          "title": "Do Wall Street Analysts Like Veeva Systems Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/3926020/do-wall-street-analysts-like-veeva-systems-stock",
+          "published_at": "2026-08-19T11:24:25+00:00"
         },
         {
-          "title": "Sector Update: Healthcare Stocks Gain Wednesday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-gain-wednesday-172624354.html",
-          "published_at": "2026-08-19T17:26:24+00:00"
+          "title": "Incyte Stock: Is Wall Street Bullish or Bearish?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/3905499/incyte-stock-is-wall-street-bullish-or-bearish",
+          "published_at": "2026-08-18T12:50:45+00:00"
         },
         {
           "title": "Moderna Rockets 93%, Merck Jumps 7% as Melanoma Therapy Meets Primary Goal in Phase 3 Trial",
@@ -82,12 +82,6 @@
       "rank": 3,
       "news": [
         {
-          "title": "Sector Update: Consumer Stocks Rise Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-194905033.html",
-          "published_at": "2026-08-19T19:49:05+00:00"
-        },
-        {
           "title": "What Are Wall Street Analysts' Target Price for lululemon athletica Stock?",
           "publisher": "Barchart",
           "url": "https://www.barchart.com/story/news/3933367/what-are-wall-street-analysts-target-price-for-lululemon-athletica-stock",
@@ -98,6 +92,12 @@
           "publisher": "Barchart",
           "url": "https://www.barchart.com/story/news/3931101/wynn-resorts-stock-is-wall-street-bullish-or-bearish",
           "published_at": "2026-08-19T14:30:43+00:00"
+        },
+        {
+          "title": "Hasbro Stock: Analyst Estimates & Ratings",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/3925340/hasbro-stock-analyst-estimates-ratings",
+          "published_at": "2026-08-19T10:57:12+00:00"
         }
       ]
     },

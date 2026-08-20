@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T19:14:02.331311+09:00",
+  "generated_at": "2026-08-20T19:35:19.891700+09:00",
   "weight_source": "equal_kr",
   "top_n": 3,
   "top_sectors": [
@@ -17,6 +17,12 @@
       "rank": 1,
       "news": [
         {
+          "title": "Samsung, SK Hynix Prep Record Shareholder Returns in AI Boom",
+          "publisher": "Bloomberg",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-sk-hynix-prep-record-053853454.html",
+          "published_at": "2026-08-20T05:38:53+00:00"
+        },
+        {
           "title": "After Samsung, SK Hynix Reportedly Reaches Tentative Wage Deal With Union: SKHY Stock Pops Premarket",
           "publisher": "Stocktwits",
           "url": "https://stocktwits.com/news-articles/markets/equity/after-samsung-sk-hynix-reportedly-reaches-tentative-wage-deal-with-union-skhy-stock-pops-premarket/cZYI17DRJm0",
@@ -27,12 +33,6 @@
           "publisher": "Proactive",
           "url": "https://www.proactiveinvestors.com/companies/news/1097329/samsung-gdrs-rise-5-9-as-record-72-billion-shareholder-return-plan-lifts-shares-1097329.html",
           "published_at": "2026-08-20T07:33:00+00:00"
-        },
-        {
-          "title": "Samsung, SK Hynix Prep Record Shareholder Returns in AI Boom",
-          "publisher": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-sk-hynix-prep-record-053853454.html",
-          "published_at": "2026-08-20T05:38:53+00:00"
         }
       ]
     },
