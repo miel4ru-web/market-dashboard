@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>일일 시황 대시보드</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>일일 시황 대시보드</h1>
+    <p class="timestamp" id="generated-at"></p>
+  </header>
+
+  <div id="content">
+    <p class="error-banner" id="error-banner" style="display:none;"></p>
+    <p class="summary" id="summary-text"></p>
+
+    <section id="cards-section">
+      <h2>지수 현황</h2>
+      <div id="cards-container"></div>
+    </section>
+
+    <section id="ranking-section">
+      <h2>상승·하락 랭킹</h2>
+      <ol class="ranking-list" id="ranking-list"></ol>
+    </section>
+
+    <section id="chart-section">
+      <h2>추이 (기간 시작 대비 등락률)</h2>
+      <div class="chart-controls">
+        <button type="button" data-range="1mo" class="active">1개월</button>
+        <button type="button" data-range="1y">1년</button>
+      </div>
+      <div class="chart-card">
+        <div class="legend" id="chart-legend"></div>
+        <div class="chart-svg-wrap" id="chart-svg-wrap"></div>
+        <button type="button" class="table-toggle" id="table-toggle">표로 보기</button>
+        <div class="data-table-wrap" id="data-table-wrap"></div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    데이터 출처: Yahoo Finance (yfinance). 매일 자동 갱신되며 참고용입니다 — 투자 판단의 근거로 사용하지 마세요.
+  </footer>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>
