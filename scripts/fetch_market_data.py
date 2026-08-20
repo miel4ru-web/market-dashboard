@@ -21,19 +21,20 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 DATA_DIR = SCRIPT_DIR.parent / "data"
 OUTPUT_PATH = DATA_DIR / "latest.json"
 LOG_PATH = SCRIPT_DIR.parent / "fetch_market_data.log"
+MARKETS_CONFIG_PATH = SCRIPT_DIR.parent / "config" / "markets.json"
 
 KST = timezone(timedelta(hours=9))
 
-MARKETS = [
-    {"label": "코스피", "ticker": "^KS11", "category": "국내증시"},
-    {"label": "코스닥", "ticker": "^KQ11", "category": "국내증시"},
-    {"label": "S&P 500", "ticker": "^GSPC", "category": "미국증시"},
-    {"label": "나스닥", "ticker": "^IXIC", "category": "미국증시"},
-    {"label": "다우존스", "ticker": "^DJI", "category": "미국증시"},
-]
-CATEGORY_ORDER = ["국내증시", "미국증시"]
-
 MONTH_TRADING_DAYS = 22
+
+
+def load_markets_config() -> tuple[list[dict], list[str]]:
+    """market-dashboard/config/markets.json을 읽어 (markets, category_order)를 돌려준다.
+
+    이 파일이 시장 목록의 단일 소스이며, 프론트엔드(app.js)도 같은 파일을 읽는다.
+    markets 배열의 순서가 차트 계열 색상의 고정 배정 순서로도 쓰인다."""
+    config = json.loads(MARKETS_CONFIG_PATH.read_text(encoding="utf-8"))
+    return config["markets"], config["categories"]
 
 
 def setup_logging() -> None:
@@ -109,10 +110,10 @@ def category_phrase(label_data: list[tuple[str, dict | None]]) -> str:
     return f"{names} 혼조"
 
 
-def build_summary(results: dict[str, dict | None]) -> str:
+def build_summary(results: dict[str, dict | None], markets: list[dict], category_order: list[str]) -> str:
     parts = []
-    for category in CATEGORY_ORDER:
-        items = [(m["label"], results[m["label"]]) for m in MARKETS if m["category"] == category]
+    for category in category_order:
+        items = [(m["label"], results[m["label"]]) for m in markets if m["category"] == category]
         parts.append(f"{category}: {category_phrase(items)}")
 
     ranked = [
@@ -134,7 +135,9 @@ def main() -> None:
     logging.info("=== 시황 데이터 수집 시작 ===")
     DATA_DIR.mkdir(exist_ok=True)
 
-    results = {m["label"]: fetch_one(m["ticker"]) for m in MARKETS}
+    markets, category_order = load_markets_config()
+
+    results = {m["label"]: fetch_one(m["ticker"]) for m in markets}
     ok_count = sum(1 for v in results.values() if v is not None)
 
     if ok_count == 0:
@@ -149,7 +152,7 @@ def main() -> None:
     )
 
     markets_out = []
-    for m in MARKETS:
+    for m in markets:
         d = results[m["label"]]
         if d is None:
             continue
@@ -173,14 +176,14 @@ def main() -> None:
         "generated_at": datetime.now(KST).isoformat(),
         "markets": markets_out,
         "ranking": ranked,
-        "summary_text": build_summary(results),
+        "summary_text": build_summary(results, markets, category_order),
     }
 
     OUTPUT_PATH.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    logging.info(f"데이터 생성 완료 (성공 {ok_count}/{len(MARKETS)}) -> {OUTPUT_PATH}")
-    print(f"data/latest.json 생성 완료 (성공 {ok_count}/{len(MARKETS)})")
+    logging.info(f"데이터 생성 완료 (성공 {ok_count}/{len(markets)}) -> {OUTPUT_PATH}")
+    print(f"data/latest.json 생성 완료 (성공 {ok_count}/{len(markets)})")
 
 
 if __name__ == "__main__":

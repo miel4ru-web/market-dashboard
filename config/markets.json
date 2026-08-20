@@ -1,0 +1,10 @@
+{
+  "categories": ["국내증시", "미국증시"],
+  "markets": [
+    { "label": "코스피", "ticker": "^KS11", "category": "국내증시" },
+    { "label": "코스닥", "ticker": "^KQ11", "category": "국내증시" },
+    { "label": "S&P 500", "ticker": "^GSPC", "category": "미국증시" },
+    { "label": "나스닥", "ticker": "^IXIC", "category": "미국증시" },
+    { "label": "다우존스", "ticker": "^DJI", "category": "미국증시" }
+  ]
+}

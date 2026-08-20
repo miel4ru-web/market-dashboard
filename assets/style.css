@@ -11,11 +11,17 @@
   --up: #d32f2f;
   --down: #1565c0;
   --flat: #757575;
-  --series-kospi: #2a78d6;
-  --series-kosdaq: #eb6834;
-  --series-sp500: #1baf7a;
-  --series-nasdaq: #eda100;
-  --series-dow: #e87ba4;
+  /* 범주형 색상 8슬롯 (dataviz 팔레트, 고정 순서). config/markets.json의
+     markets 배열 순서대로 slot-1, slot-2, ... 로 배정된다 — 시장을
+     추가/삭제해도 이 8개 슬롯 자체는 건드릴 필요 없음. */
+  --series-slot-1: #2a78d6;
+  --series-slot-2: #eb6834;
+  --series-slot-3: #1baf7a;
+  --series-slot-4: #eda100;
+  --series-slot-5: #e87ba4;
+  --series-slot-6: #008300;
+  --series-slot-7: #4a3aa7;
+  --series-slot-8: #e34948;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,11 +38,14 @@
     --up: #ef5350;
     --down: #64b5f6;
     --flat: #9e9e9e;
-    --series-kospi: #3987e5;
-    --series-kosdaq: #d95926;
-    --series-sp500: #199e70;
-    --series-nasdaq: #c98500;
-    --series-dow: #d55181;
+    --series-slot-1: #3987e5;
+    --series-slot-2: #d95926;
+    --series-slot-3: #199e70;
+    --series-slot-4: #c98500;
+    --series-slot-5: #d55181;
+    --series-slot-6: #008300;
+    --series-slot-7: #9085e9;
+    --series-slot-8: #e66767;
   }
 }
 

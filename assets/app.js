@@ -3,20 +3,23 @@
 
   var WEEKDAY_KR = ["일", "월", "화", "수", "목", "금", "토"];
 
-  var SERIES_META = [
-    { label: "코스피", varName: "--series-kospi" },
-    { label: "코스닥", varName: "--series-kosdaq" },
-    { label: "S&P 500", varName: "--series-sp500" },
-    { label: "나스닥", varName: "--series-nasdaq" },
-    { label: "다우존스", varName: "--series-dow" }
-  ];
-
-  var CATEGORY_ORDER = ["국내증시", "미국증시"];
+  // config/markets.json이 시장 목록의 단일 소스다 (fetch_market_data.py도 같은
+  // 파일을 읽음). SERIES_META/CATEGORY_ORDER는 그 파일에서 채워진다 — 아래
+  // 두 변수는 renderAll()이 config를 불러온 뒤 설정하기 전까지는 비어 있다.
+  var SERIES_META = [];
+  var CATEGORY_ORDER = [];
 
   var state = {
     data: null,
     range: "1mo"
   };
+
+  function buildSeriesMeta(marketsConfig) {
+    // markets 배열의 순서 = 범주형 색상 슬롯의 고정 배정 순서 (최대 8개).
+    return marketsConfig.map(function (m, i) {
+      return { label: m.label, varName: "--series-slot-" + (i + 1) };
+    });
+  }
 
   function seriesColor(label) {
     var meta = SERIES_META.filter(function (m) { return m.label === label; })[0];
@@ -539,12 +542,21 @@
     renderChart(data);
   }
 
-  fetch("data/latest.json", { cache: "no-store" })
-    .then(function (res) {
-      if (!res.ok) throw new Error("데이터를 불러오지 못했습니다 (HTTP " + res.status + ")");
+  function fetchJSON(path) {
+    return fetch(path, { cache: "no-store" }).then(function (res) {
+      if (!res.ok) throw new Error(path + " 요청 실패 (HTTP " + res.status + ")");
       return res.json();
+    });
+  }
+
+  Promise.all([fetchJSON("config/markets.json"), fetchJSON("data/latest.json")])
+    .then(function (results) {
+      var config = results[0];
+      var data = results[1];
+      SERIES_META = buildSeriesMeta(config.markets);
+      CATEGORY_ORDER = config.categories;
+      renderAll(data);
     })
-    .then(renderAll)
     .catch(function (err) {
       showError("시황 데이터를 불러오는 데 실패했습니다: " + err.message);
     });

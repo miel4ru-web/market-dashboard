@@ -4,10 +4,24 @@
 
 ## 구조
 
-- `scripts/fetch_market_data.py` — yfinance로 데이터를 조회해 `data/latest.json`을 생성
+- `config/markets.json` — 표시할 시장 목록의 단일 소스 (라벨·티커·카테고리)
+- `scripts/fetch_market_data.py` — `config/markets.json`을 읽어 yfinance로 데이터를 조회하고 `data/latest.json`을 생성
 - `data/latest.json` — 최신 시황 데이터 (Actions가 매일 커밋)
-- `index.html`, `assets/` — 데이터를 보여주는 정적 페이지
+- `index.html`, `assets/` — 데이터를 보여주는 정적 페이지 (`assets/app.js`도 `config/markets.json`을 읽음)
 - `.github/workflows/update-data.yml` — 매일 데이터를 갱신하는 워크플로
+
+## 시장 추가/삭제하기
+
+`config/markets.json`만 수정하면 됩니다. Python·JS·CSS 어느 것도 손댈 필요 없습니다.
+
+```json
+{ "label": "표시 이름", "ticker": "yfinance 티커", "category": "카테고리명" }
+```
+
+- `markets` 배열에 항목을 추가/삭제/순서 변경 — 카드·랭킹·차트·요약 문구에 자동 반영됩니다.
+- 새 카테고리를 쓰려면 `categories` 배열에도 그 이름을 추가하세요 (카드 섹션 순서를 결정).
+- 차트 색상은 `markets` 배열의 **순서**대로 8개의 고정 슬롯(`--series-slot-1` ~ `-8`, `assets/style.css`)에서 배정됩니다. 9번째 시장부터는 대응하는 CSS 변수가 없어 선 색이 정상적으로 나오지 않습니다 — 색맹 접근성을 위해 슬롯을 임의로 순환시키지 않는 설계이므로, 8개를 넘기려면 `assets/style.css`에 슬롯을 추가하거나, 일부 시장을 "기타"로 묶거나 별도 소그룹 차트로 나누는 방식을 권장합니다.
+- 수정 후 `py -3.12 scripts/fetch_market_data.py`를 실행해 `data/latest.json`을 다시 생성하세요.
 
 ## 로컬에서 데이터 갱신
 
