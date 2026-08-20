@@ -1,0 +1,18 @@
+{
+  "top_n": 3,
+  "news_per_sector": 3,
+  "news_max_age_hours": 48,
+  "sectors": [
+    { "label": "기술", "ticker": "XLK", "morningstar_key": "technology" },
+    { "label": "금융", "ticker": "XLF", "morningstar_key": "financial_services" },
+    { "label": "헬스케어", "ticker": "XLV", "morningstar_key": "healthcare" },
+    { "label": "임의소비재", "ticker": "XLY", "morningstar_key": "consumer_cyclical" },
+    { "label": "필수소비재", "ticker": "XLP", "morningstar_key": "consumer_defensive" },
+    { "label": "에너지", "ticker": "XLE", "morningstar_key": "energy" },
+    { "label": "산업재", "ticker": "XLI", "morningstar_key": "industrials" },
+    { "label": "유틸리티", "ticker": "XLU", "morningstar_key": "utilities" },
+    { "label": "소재", "ticker": "XLB", "morningstar_key": "basic_materials" },
+    { "label": "부동산", "ticker": "XLRE", "morningstar_key": "realestate" },
+    { "label": "커뮤니케이션서비스", "ticker": "XLC", "morningstar_key": "communication_services" }
+  ]
+}

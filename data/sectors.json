@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-08-20T19:00:13.782811+09:00",
+  "weight_source": "sp500_index",
+  "top_n": 3,
+  "top_sectors": [
+    "기술",
+    "헬스케어",
+    "임의소비재"
+  ],
+  "sectors": [
+    {
+      "label": "기술",
+      "ticker": "XLK",
+      "weight_pct": 37.4,
+      "pct": -1.07,
+      "contribution": -0.3989,
+      "rank": 1,
+      "news": [
+        {
+          "title": "The 10 Most Popular AI ETFs of 2026",
+          "publisher": "etf.com",
+          "url": "http://www.etf.com/sections/features/10-most-popular-ai-etfs-2026?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss",
+          "published_at": "2026-08-20T00:24:40+00:00"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-194639070.html",
+          "published_at": "2026-08-19T19:46:39+00:00"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Decline Wednesday Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-decline-wednesday-173218653.html",
+          "published_at": "2026-08-19T17:32:18+00:00"
+        }
+      ]
+    },
+    {
+      "label": "금융",
+      "ticker": "XLF",
+      "weight_pct": 12.24,
+      "pct": -0.62,
+      "contribution": -0.0762,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "헬스케어",
+      "ticker": "XLV",
+      "weight_pct": 9.1,
+      "pct": 3.51,
+      "contribution": 0.319,
+      "rank": 2,
+      "news": [
+        {
+          "title": "Sector Update: Healthcare Stocks Gain Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-gain-afternoon-195017114.html",
+          "published_at": "2026-08-19T19:50:17+00:00"
+        },
+        {
+          "title": "Sector Update: Healthcare Stocks Gain Wednesday Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-gain-wednesday-172624354.html",
+          "published_at": "2026-08-19T17:26:24+00:00"
+        },
+        {
+          "title": "Moderna Rockets 93%, Merck Jumps 7% as Melanoma Therapy Meets Primary Goal in Phase 3 Trial",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/19/moderna-rockets-93-merck-jumps-7-as-melanoma-therapy-meets-primary-goal-in-phase-3-trial/",
+          "published_at": "2026-08-19T13:22:02+00:00"
+        }
+      ]
+    },
+    {
+      "label": "임의소비재",
+      "ticker": "XLY",
+      "weight_pct": 9.57,
+      "pct": 1.92,
+      "contribution": 0.1834,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Sector Update: Consumer Stocks Rise Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-194905033.html",
+          "published_at": "2026-08-19T19:49:05+00:00"
+        },
+        {
+          "title": "What Are Wall Street Analysts' Target Price for lululemon athletica Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/3933367/what-are-wall-street-analysts-target-price-for-lululemon-athletica-stock",
+          "published_at": "2026-08-19T16:24:11+00:00"
+        },
+        {
+          "title": "Wynn Resorts Stock: Is Wall Street Bullish or Bearish?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/3931101/wynn-resorts-stock-is-wall-street-bullish-or-bearish",
+          "published_at": "2026-08-19T14:30:43+00:00"
+        }
+      ]
+    },
+    {
+      "label": "필수소비재",
+      "ticker": "XLP",
+      "weight_pct": 4.61,
+      "pct": 1.12,
+      "contribution": 0.0517,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "에너지",
+      "ticker": "XLE",
+      "weight_pct": 3.36,
+      "pct": -0.16,
+      "contribution": -0.0053,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "산업재",
+      "ticker": "XLI",
+      "weight_pct": 8.16,
+      "pct": -0.88,
+      "contribution": -0.072,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "유틸리티",
+      "ticker": "XLU",
+      "weight_pct": 2.15,
+      "pct": 0.0,
+      "contribution": 0.0,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "소재",
+      "ticker": "XLB",
+      "weight_pct": 1.62,
+      "pct": 1.43,
+      "contribution": 0.0232,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "부동산",
+      "ticker": "XLRE",
+      "weight_pct": 1.88,
+      "pct": 0.81,
+      "contribution": 0.0152,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "커뮤니케이션서비스",
+      "ticker": "XLC",
+      "weight_pct": 9.91,
+      "pct": 0.76,
+      "contribution": 0.0753,
+      "rank": null,
+      "news": []
+    }
+  ]
+}

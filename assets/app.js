@@ -542,6 +542,112 @@
     renderChart(data);
   }
 
+  // ---- 오늘의 주요 섹터 (기존 대시보드와 독립적으로 fetch/렌더링됨 — 실패해도
+  // 나머지 섹션에 영향을 주지 않는다. 아래쪽 fetchJSON 초기화 코드 참고) ----
+
+  function relativeTimeKR(iso) {
+    var diffMs = Date.now() - new Date(iso).getTime();
+    var hours = Math.round(diffMs / 3600000);
+    if (hours < 1) return "방금 전";
+    if (hours < 24) return hours + "시간 전";
+    return Math.round(hours / 24) + "일 전";
+  }
+
+  function renderSectorNews(news) {
+    var ul = document.createElement("ul");
+    ul.className = "sector-news";
+    if (!news || news.length === 0) {
+      var li = document.createElement("li");
+      li.className = "no-news";
+      li.textContent = "관련 뉴스 없음";
+      ul.appendChild(li);
+      return ul;
+    }
+    news.forEach(function (n) {
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.href = n.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = n.title;
+      li.appendChild(a);
+      var meta = document.createElement("span");
+      meta.className = "news-meta";
+      meta.textContent = (n.publisher || "알 수 없음") + " · " + relativeTimeKR(n.published_at);
+      li.appendChild(meta);
+      ul.appendChild(li);
+    });
+    return ul;
+  }
+
+  function renderSectors(config, data) {
+    var section = document.getElementById("sector-section");
+    section.innerHTML = "";
+
+    if (!data || !data.top_sectors || data.top_sectors.length === 0) return;
+
+    var byLabel = {};
+    data.sectors.forEach(function (s) { byLabel[s.label] = s; });
+    var ranked = data.top_sectors
+      .map(function (label) { return byLabel[label]; })
+      .filter(Boolean);
+    if (ranked.length === 0) return;
+
+    var h2 = document.createElement("h2");
+    h2.textContent = "오늘의 주요 섹터 (미국)";
+    section.appendChild(h2);
+
+    var caption = document.createElement("p");
+    caption.className = "sector-caption";
+    caption.textContent = "가중치는 S&P500 실제 섹터 비중, 선정 기준은 가격 변동입니다. 뉴스는 선정된 섹터의 최신 기사이며 오늘 가장 중요한 뉴스 전체를 의미하지 않습니다.";
+    section.appendChild(caption);
+
+    if (state.data && state.data.generated_at && data.generated_at) {
+      var sectorDate = data.generated_at.slice(0, 10);
+      var marketDate = state.data.generated_at.slice(0, 10);
+      if (sectorDate !== marketDate) {
+        var note = document.createElement("p");
+        note.className = "sector-stale-note";
+        note.textContent = "이 섹터 데이터는 " + sectorDate + " 기준입니다 (지수 데이터보다 오래됨).";
+        section.appendChild(note);
+      }
+    }
+
+    var grid = document.createElement("div");
+    grid.className = "sector-grid";
+
+    ranked.forEach(function (s) {
+      var card = document.createElement("div");
+      card.className = "card sector-card";
+
+      var rankTag = document.createElement("div");
+      rankTag.className = "rank-tag";
+      rankTag.textContent = s.rank + "위";
+      card.appendChild(rankTag);
+
+      var label = document.createElement("div");
+      label.className = "label";
+      label.textContent = s.label;
+      card.appendChild(label);
+
+      var delta = document.createElement("div");
+      delta.className = "delta " + deltaClass(s.pct);
+      delta.textContent = fmtSigned(s.pct, 2, "%");
+      card.appendChild(delta);
+
+      var weightMeta = document.createElement("div");
+      weightMeta.className = "weight-meta";
+      weightMeta.textContent = "시가총액 비중 약 " + fmtNum(s.weight_pct, 1) + "% · 기여도 " + fmtSigned(s.contribution, 3, "%p");
+      card.appendChild(weightMeta);
+
+      card.appendChild(renderSectorNews(s.news));
+
+      grid.appendChild(card);
+    });
+
+    section.appendChild(grid);
+  }
+
   function fetchJSON(path) {
     return fetch(path, { cache: "no-store" }).then(function (res) {
       if (!res.ok) throw new Error(path + " 요청 실패 (HTTP " + res.status + ")");
@@ -559,5 +665,14 @@
     })
     .catch(function (err) {
       showError("시황 데이터를 불러오는 데 실패했습니다: " + err.message);
+    });
+
+  // 섹터 섹션은 별도 체인으로 로드 — 실패해도 위 대시보드에는 영향 없음.
+  Promise.all([fetchJSON("config/sectors.json"), fetchJSON("data/sectors.json")])
+    .then(function (results) {
+      renderSectors(results[0], results[1]);
+    })
+    .catch(function (err) {
+      console.warn("섹터 섹션 로드 실패:", err);
     });
 })();

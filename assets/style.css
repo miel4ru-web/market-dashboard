@@ -367,6 +367,81 @@ table.data-table th {
   font-weight: 600;
 }
 
+.sector-caption {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+}
+
+.sector-stale-note {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 0 0 12px;
+}
+
+.sector-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.sector-card .rank-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.sector-card .weight-meta {
+  margin-top: 6px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.sector-news {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 10px 0 0;
+  border-top: 1px solid var(--border);
+}
+
+.sector-news li {
+  margin-bottom: 8px;
+}
+
+.sector-news li:last-child {
+  margin-bottom: 0;
+}
+
+.sector-news a {
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  text-decoration: none;
+  line-height: 1.35;
+}
+
+.sector-news a:hover {
+  text-decoration: underline;
+}
+
+.sector-news .news-meta {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.sector-news .no-news {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 footer {
   color: var(--text-muted);
   font-size: 0.78rem;
