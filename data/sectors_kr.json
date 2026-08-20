@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T19:36:01.190941+09:00",
+  "generated_at": "2026-08-21T08:21:31.478046+09:00",
   "weight_source": "equal_kr",
   "top_n": 3,
   "top_sectors": [
@@ -17,22 +17,22 @@
       "rank": 1,
       "news": [
         {
-          "title": "Samsung, SK Hynix Prep Record Shareholder Returns in AI Boom",
-          "publisher": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-sk-hynix-prep-record-053853454.html",
-          "published_at": "2026-08-20T05:38:53+00:00"
+          "title": "Samsung Considers $72 Billion Shareholder Boost As Memory Booms",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-considers-72-billion-shareholder-170032889.html",
+          "published_at": "2026-08-20T17:00:32+00:00"
         },
         {
-          "title": "After Samsung, SK Hynix Reportedly Reaches Tentative Wage Deal With Union: SKHY Stock Pops Premarket",
-          "publisher": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/after-samsung-sk-hynix-reportedly-reaches-tentative-wage-deal-with-union-skhy-stock-pops-premarket/cZYI17DRJm0",
-          "published_at": "2026-08-20T08:29:15+00:00"
+          "title": "Samsung Weighs $72 Billion Shareholder Return Plan",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-weighs-72-billion-shareholder-135301130.html",
+          "published_at": "2026-08-20T13:53:01+00:00"
         },
         {
-          "title": "Samsung GDRs rise 5.9% as record $72 billion shareholder return plan lifts shares",
-          "publisher": "Proactive",
-          "url": "https://www.proactiveinvestors.com/companies/news/1097329/samsung-gdrs-rise-5-9-as-record-72-billion-shareholder-return-plan-lifts-shares-1097329.html",
-          "published_at": "2026-08-20T07:33:00+00:00"
+          "title": "Micron unveils $10 billion AI memory research lab in Boise",
+          "publisher": "Reuters",
+          "url": "https://finance.yahoo.com/technology/ai/articles/micron-unveils-10-billion-ai-134438383.html",
+          "published_at": "2026-08-20T13:44:38+00:00"
         }
       ]
     },

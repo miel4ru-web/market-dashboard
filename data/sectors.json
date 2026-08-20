@@ -1,69 +1,69 @@
 {
-  "generated_at": "2026-08-20T19:35:59.240687+09:00",
+  "generated_at": "2026-08-21T08:21:29.554359+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
-    "기술",
     "헬스케어",
-    "임의소비재"
+    "임의소비재",
+    "금융"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 37.4,
-      "pct": -1.07,
-      "contribution": -0.3989,
-      "rank": 1,
-      "news": [
-        {
-          "title": "The 10 Most Popular AI ETFs of 2026",
-          "publisher": "etf.com",
-          "url": "http://www.etf.com/sections/features/10-most-popular-ai-etfs-2026?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss",
-          "published_at": "2026-08-20T00:24:40+00:00"
-        },
-        {
-          "title": "Stock Market News for Aug 19, 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-19-132100663.html",
-          "published_at": "2026-08-19T13:21:00+00:00"
-        },
-        {
-          "title": "PTC Stock: Analyst Estimates & Ratings",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3909863/ptc-stock-analyst-estimates-ratings",
-          "published_at": "2026-08-18T15:25:25+00:00"
-        }
-      ]
+      "pct": -0.29,
+      "contribution": -0.11,
+      "rank": null,
+      "news": []
     },
     {
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.24,
-      "pct": -0.62,
-      "contribution": -0.0762,
-      "rank": null,
-      "news": []
+      "pct": -0.92,
+      "contribution": -0.1129,
+      "rank": 3,
+      "news": [
+        {
+          "title": "XLF vs EUFN: Is a U.S. Financials ETF Superior to a Europe-Focused Fund?",
+          "publisher": "Motley Fool",
+          "url": "https://www.fool.com/coverage/etfs/2026/08/20/xlf-vs-eufn-is-a-u-s-financials-etf-superior-to-a-europe-focused-fund/",
+          "published_at": "2026-08-20T21:04:01+00:00"
+        },
+        {
+          "title": "Klarna Slides 5%, Affirm Slips 3%, but PayPal Stays in the Green: Is a Rotation in BNPL Stocks Afoot?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/20/klarna-slides-5-affirm-slips-3-but-paypal-stays-in-the-green-is-a-rotation-in-bnpl-stocks-afoot/",
+          "published_at": "2026-08-20T18:46:24+00:00"
+        },
+        {
+          "title": "Is Wall Street Bullish or Bearish on State Street Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/3946939/is-wall-street-bullish-or-bearish-on-state-street-stock",
+          "published_at": "2026-08-20T11:34:04+00:00"
+        }
+      ]
     },
     {
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.1,
-      "pct": 3.51,
-      "contribution": 0.319,
-      "rank": 2,
+      "pct": -1.87,
+      "contribution": -0.1704,
+      "rank": 1,
       "news": [
         {
-          "title": "Do Wall Street Analysts Like Veeva Systems Stock?",
+          "title": "What Are Wall Street Analysts' Target Price for Agilent Technologies Stock?",
           "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3926020/do-wall-street-analysts-like-veeva-systems-stock",
-          "published_at": "2026-08-19T11:24:25+00:00"
+          "url": "https://www.barchart.com/story/news/3954180/what-are-wall-street-analysts-target-price-for-agilent-technologies-stock",
+          "published_at": "2026-08-20T16:14:47+00:00"
         },
         {
-          "title": "Incyte Stock: Is Wall Street Bullish or Bearish?",
+          "title": "Are Wall Street Analysts Bullish on Vertex Stock?",
           "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3905499/incyte-stock-is-wall-street-bullish-or-bearish",
-          "published_at": "2026-08-18T12:50:45+00:00"
+          "url": "https://www.barchart.com/story/news/3943755/are-wall-street-analysts-bullish-on-vertex-stock",
+          "published_at": "2026-08-20T07:18:50+00:00"
         },
         {
           "title": "Moderna Rockets 93%, Merck Jumps 7% as Melanoma Therapy Meets Primary Goal in Phase 3 Trial",
@@ -77,9 +77,9 @@
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.57,
-      "pct": 1.92,
-      "contribution": 0.1834,
-      "rank": 3,
+      "pct": -1.61,
+      "contribution": -0.1541,
+      "rank": 2,
       "news": [
         {
           "title": "What Are Wall Street Analysts' Target Price for lululemon athletica Stock?",
@@ -94,10 +94,10 @@
           "published_at": "2026-08-19T14:30:43+00:00"
         },
         {
-          "title": "Hasbro Stock: Analyst Estimates & Ratings",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3925340/hasbro-stock-analyst-estimates-ratings",
-          "published_at": "2026-08-19T10:57:12+00:00"
+          "title": "Should You Invest in the State Street Consumer Discretionary Select Sector SPDR ETF (XLY)?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/invest-state-street-consumer-discretionary-102002296.html",
+          "published_at": "2026-08-20T10:20:02+00:00"
         }
       ]
     },
@@ -105,8 +105,8 @@
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.61,
-      "pct": 1.12,
-      "contribution": 0.0517,
+      "pct": -1.41,
+      "contribution": -0.065,
       "rank": null,
       "news": []
     },
@@ -114,8 +114,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.36,
-      "pct": -0.16,
-      "contribution": -0.0053,
+      "pct": 0.27,
+      "contribution": 0.009,
       "rank": null,
       "news": []
     },
@@ -123,8 +123,8 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 8.16,
-      "pct": -0.88,
-      "contribution": -0.072,
+      "pct": -1.2,
+      "contribution": -0.0978,
       "rank": null,
       "news": []
     },
@@ -132,8 +132,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 2.15,
-      "pct": 0.0,
-      "contribution": 0.0,
+      "pct": -0.57,
+      "contribution": -0.0122,
       "rank": null,
       "news": []
     },
@@ -141,8 +141,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.62,
-      "pct": 1.43,
-      "contribution": 0.0232,
+      "pct": -0.19,
+      "contribution": -0.0031,
       "rank": null,
       "news": []
     },
@@ -150,8 +150,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.88,
-      "pct": 0.81,
-      "contribution": 0.0152,
+      "pct": 0.2,
+      "contribution": 0.0038,
       "rank": null,
       "news": []
     },
@@ -159,8 +159,8 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.91,
-      "pct": 0.76,
-      "contribution": 0.0753,
+      "pct": -0.57,
+      "contribution": -0.057,
       "rank": null,
       "news": []
     }
