@@ -10,7 +10,10 @@
 - `config/sectors.json` — 미국 GICS 11개 섹터(SPDR 섹터 ETF) 목록의 단일 소스
 - `scripts/fetch_sector_data.py` — S&P500 실제 섹터 비중 × 오늘 등락률로 "기여도"를 계산해 상위 섹터를 고르고, 그 섹터들의 최신 뉴스(yfinance `Ticker.news`)를 붙여 `data/sectors.json`을 생성. 기존 지수 파이프라인과 독립적으로 실패해도 무방하도록 설계됨 (아래 "오늘의 주요 섹터" 참고)
 - `data/sectors.json` — 최신 주요 섹터/뉴스 데이터
-- `index.html`, `assets/` — 데이터를 보여주는 정적 페이지 (`assets/app.js`도 `config/markets.json`, `config/sectors.json`을 읽음)
+- `config/sectors_kr.json` — 국내(코스피) 9개 섹터(TIGER 200 섹터 ETF 시리즈) 목록의 단일 소스. 뉴스용 대표 종목(`news_ticker`)도 함께 지정
+- `scripts/fetch_sector_data_kr.py` — 국내 섹터판. 미국과 달리 무료 시가총액 비중 소스가 없어 균등 가중치를 쓰고, 섹터 ETF 자체는 뉴스가 없어 대표 종목 뉴스를 붙임 (아래 "오늘의 주요 섹터 (국내)" 참고)
+- `data/sectors_kr.json` — 최신 국내 주요 섹터/뉴스 데이터
+- `index.html`, `assets/` — 데이터를 보여주는 정적 페이지 (`assets/app.js`도 `config/markets.json`, `config/sectors.json`, `config/sectors_kr.json`을 읽음)
 - `.github/workflows/update-data.yml` — 매일 데이터를 갱신하는 워크플로
 
 ## 시장 추가/삭제하기
@@ -35,15 +38,24 @@
 - **뉴스**: 선정된 섹터에 한해서만 `yf.Ticker(ticker).news`로 최근 뉴스를 가져옵니다 — 오늘 전체에서 가장 중요한 뉴스가 아니라 "선정된 섹터와 관련된 최신 뉴스"라는 점에 유의하세요.
 - 이 섹션은 지수 대시보드와 **독립적으로** fetch/렌더링됩니다. `scripts/fetch_sector_data.py`나 `data/sectors.json`에 문제가 생겨도 워크플로는 실패하지 않고(`continue-on-error: true`), 페이지에서도 이 섹션만 조용히 빠지고 나머지는 정상 동작합니다.
 
+## 오늘의 주요 섹터 (국내)
+
+2단계로 추가된 코스피 버전. yfinance로 국내 섹터 데이터를 조사해보니 미국과 똑같은 방식을 쓸 수 없었습니다:
+
+- **가중치 데이터가 아예 없음**: 국내 섹터 ETF(TIGER 200 시리즈)는 `funds_data`도, `.info`의 `totalAssets`/`marketCap`도 전부 비어 있습니다. 대안으로 평균 거래대금 비중을 시도했지만, 실측 결과 TIGER 200 IT 한 종목의 거래대금이 나머지 8개를 합친 것보다 커서(예: IT 928억 원 vs 대부분 3~15억 원대) 가중치가 항상 90% 넘게 IT로 쏠리는 왜곡된 숫자가 나왔습니다 — 실제 코스피 내 비중과 무관하게 "이 ETF가 얼마나 인기 있는가"만 반영하는 잘못된 신호였습니다. 그래서 **균등 가중치**를 명시적으로 쓰기로 했습니다 (`weight_source: "equal_kr"`) — "주요 섹터" 선정이 사실상 등락률 상위 랭킹과 같아진다는 뜻이고, UI 캡션에도 그렇게 밝힙니다.
+- **섹터 ETF에는 뉴스가 없음**: `yf.Ticker(sector_etf).news`가 국내 티커에서는 항상 0건이었습니다. 대신 각 섹터를 대표하는 개별 종목(`news_ticker`, 예: IT→삼성전자, 금융→KB금융)의 뉴스를 가져옵니다.
+- 나머지 구조(격리 원칙, 상위 N개만 뉴스 조회, 실패 시 조용히 건너뛰기)는 미국판과 동일합니다.
+
 ## 로컬에서 데이터 갱신
 
 ```
 py -3.12 -m pip install -r requirements.txt
 py -3.12 scripts/fetch_market_data.py
 py -3.12 scripts/fetch_sector_data.py
+py -3.12 scripts/fetch_sector_data_kr.py
 ```
 
-`data/latest.json`, `data/sectors.json`이 갱신됩니다.
+`data/latest.json`, `data/sectors.json`, `data/sectors_kr.json`이 갱신됩니다.
 
 ## 로컬에서 페이지 미리보기
 

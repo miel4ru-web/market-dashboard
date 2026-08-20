@@ -30,12 +30,17 @@ jobs:
         run: python scripts/fetch_sector_data.py
         continue-on-error: true
 
+      - name: Fetch KR sector data
+        run: python scripts/fetch_sector_data_kr.py
+        continue-on-error: true
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/latest.json
           if [ -f data/sectors.json ]; then git add data/sectors.json; fi
+          if [ -f data/sectors_kr.json ]; then git add data/sectors_kr.json; fi
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "chore: update market data"
           git push

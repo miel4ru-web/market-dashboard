@@ -580,8 +580,8 @@
     return ul;
   }
 
-  function renderSectors(config, data) {
-    var section = document.getElementById("sector-section");
+  function renderSectorSection(sectionId, title, captionText, config, data) {
+    var section = document.getElementById(sectionId);
     section.innerHTML = "";
 
     if (!data || !data.top_sectors || data.top_sectors.length === 0) return;
@@ -594,12 +594,12 @@
     if (ranked.length === 0) return;
 
     var h2 = document.createElement("h2");
-    h2.textContent = "오늘의 주요 섹터 (미국)";
+    h2.textContent = title;
     section.appendChild(h2);
 
     var caption = document.createElement("p");
     caption.className = "sector-caption";
-    caption.textContent = "가중치는 S&P500 실제 섹터 비중, 선정 기준은 가격 변동입니다. 뉴스는 선정된 섹터의 최신 기사이며 오늘 가장 중요한 뉴스 전체를 의미하지 않습니다.";
+    caption.textContent = captionText;
     section.appendChild(caption);
 
     if (state.data && state.data.generated_at && data.generated_at) {
@@ -637,7 +637,7 @@
 
       var weightMeta = document.createElement("div");
       weightMeta.className = "weight-meta";
-      weightMeta.textContent = "시가총액 비중 약 " + fmtNum(s.weight_pct, 1) + "% · 기여도 " + fmtSigned(s.contribution, 3, "%p");
+      weightMeta.textContent = "가중치 약 " + fmtNum(s.weight_pct, 1) + "% · 기여도 " + fmtSigned(s.contribution, 3, "%p");
       card.appendChild(weightMeta);
 
       card.appendChild(renderSectorNews(s.news));
@@ -667,12 +667,32 @@
       showError("시황 데이터를 불러오는 데 실패했습니다: " + err.message);
     });
 
-  // 섹터 섹션은 별도 체인으로 로드 — 실패해도 위 대시보드에는 영향 없음.
+  // 섹터 섹션들은 각각 별도 체인으로 로드 — 실패해도 위 대시보드나 서로에게 영향 없음.
   Promise.all([fetchJSON("config/sectors.json"), fetchJSON("data/sectors.json")])
     .then(function (results) {
-      renderSectors(results[0], results[1]);
+      renderSectorSection(
+        "sector-section",
+        "오늘의 주요 섹터 (미국)",
+        "가중치는 S&P500 실제 섹터 비중, 선정 기준은 가격 변동입니다. 뉴스는 선정된 섹터의 최신 기사이며 오늘 가장 중요한 뉴스 전체를 의미하지 않습니다.",
+        results[0],
+        results[1]
+      );
     })
     .catch(function (err) {
-      console.warn("섹터 섹션 로드 실패:", err);
+      console.warn("미국 섹터 섹션 로드 실패:", err);
+    });
+
+  Promise.all([fetchJSON("config/sectors_kr.json"), fetchJSON("data/sectors_kr.json")])
+    .then(function (results) {
+      renderSectorSection(
+        "sector-section-kr",
+        "오늘의 주요 섹터 (국내)",
+        "국내 섹터는 무료로 구할 수 있는 시가총액 비중 데이터가 없어 균등 가중치를 사용합니다 — 사실상 등락률 상위 랭킹입니다. 뉴스는 각 섹터 대표 종목 기준입니다.",
+        results[0],
+        results[1]
+      );
+    })
+    .catch(function (err) {
+      console.warn("국내 섹터 섹션 로드 실패:", err);
     });
 })();

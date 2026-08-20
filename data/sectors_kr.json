@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-08-20T19:10:17.036457+09:00",
+  "weight_source": "equal_kr",
+  "top_n": 3,
+  "top_sectors": [
+    "IT",
+    "헬스케어",
+    "철강소재"
+  ],
+  "sectors": [
+    {
+      "label": "IT",
+      "ticker": "139260.KS",
+      "weight_pct": 11.11,
+      "pct": 7.1,
+      "contribution": 0.7884,
+      "rank": 1,
+      "news": [
+        {
+          "title": "After Samsung, SK Hynix Reportedly Reaches Tentative Wage Deal With Union: SKHY Stock Pops Premarket",
+          "publisher": "Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/after-samsung-sk-hynix-reportedly-reaches-tentative-wage-deal-with-union-skhy-stock-pops-premarket/cZYI17DRJm0",
+          "published_at": "2026-08-20T08:29:15+00:00"
+        },
+        {
+          "title": "Samsung GDRs rise 5.9% as record $72 billion shareholder return plan lifts shares",
+          "publisher": "Proactive",
+          "url": "https://www.proactiveinvestors.com/companies/news/1097329/samsung-gdrs-rise-5-9-as-record-72-billion-shareholder-return-plan-lifts-shares-1097329.html",
+          "published_at": "2026-08-20T07:33:00+00:00"
+        },
+        {
+          "title": "Samsung, SK Hynix Prep Record Shareholder Returns in AI Boom",
+          "publisher": "Bloomberg",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-sk-hynix-prep-record-053853454.html",
+          "published_at": "2026-08-20T05:38:53+00:00"
+        }
+      ]
+    },
+    {
+      "label": "금융",
+      "ticker": "139270.KS",
+      "weight_pct": 11.11,
+      "pct": -1.13,
+      "contribution": -0.1254,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "헬스케어",
+      "ticker": "227540.KS",
+      "weight_pct": 11.11,
+      "pct": 2.33,
+      "contribution": 0.2592,
+      "rank": 2,
+      "news": []
+    },
+    {
+      "label": "경기소비재",
+      "ticker": "139290.KS",
+      "weight_pct": 11.11,
+      "pct": -0.75,
+      "contribution": -0.083,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "생활소비재",
+      "ticker": "227560.KS",
+      "weight_pct": 11.11,
+      "pct": 2.03,
+      "contribution": 0.2256,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "에너지화학",
+      "ticker": "139250.KS",
+      "weight_pct": 11.11,
+      "pct": -0.42,
+      "contribution": -0.047,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "중공업",
+      "ticker": "139230.KS",
+      "weight_pct": 11.11,
+      "pct": -0.54,
+      "contribution": -0.0601,
+      "rank": null,
+      "news": []
+    },
+    {
+      "label": "철강소재",
+      "ticker": "139240.KS",
+      "weight_pct": 11.11,
+      "pct": 2.32,
+      "contribution": 0.258,
+      "rank": 3,
+      "news": []
+    },
+    {
+      "label": "건설",
+      "ticker": "139220.KS",
+      "weight_pct": 11.11,
+      "pct": 1.61,
+      "contribution": 0.1793,
+      "rank": null,
+      "news": []
+    }
+  ]
+}

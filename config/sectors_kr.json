@@ -1,0 +1,16 @@
+{
+  "top_n": 3,
+  "news_per_sector": 3,
+  "news_max_age_hours": 48,
+  "sectors": [
+    { "label": "IT", "ticker": "139260.KS", "news_ticker": "005930.KS" },
+    { "label": "금융", "ticker": "139270.KS", "news_ticker": "105560.KS" },
+    { "label": "헬스케어", "ticker": "227540.KS", "news_ticker": "207940.KS" },
+    { "label": "경기소비재", "ticker": "139290.KS", "news_ticker": "005380.KS" },
+    { "label": "생활소비재", "ticker": "227560.KS", "news_ticker": "097950.KS" },
+    { "label": "에너지화학", "ticker": "139250.KS", "news_ticker": "051910.KS" },
+    { "label": "중공업", "ticker": "139230.KS", "news_ticker": "329180.KS" },
+    { "label": "철강소재", "ticker": "139240.KS", "news_ticker": "005490.KS" },
+    { "label": "건설", "ticker": "139220.KS", "news_ticker": "000720.KS" }
+  ]
+}
