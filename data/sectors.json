@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-21T08:21:29.554359+09:00",
+  "generated_at": "2026-08-22T08:19:16.533478+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
     "헬스케어",
-    "임의소비재",
-    "금융"
+    "금융",
+    "임의소비재"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 37.4,
-      "pct": -0.29,
-      "contribution": -0.11,
+      "pct": 0.11,
+      "contribution": 0.0429,
       "rank": null,
       "news": []
     },
@@ -21,27 +21,27 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.24,
-      "pct": -0.92,
-      "contribution": -0.1129,
-      "rank": 3,
+      "pct": 0.93,
+      "contribution": 0.1139,
+      "rank": 2,
       "news": [
         {
-          "title": "XLF vs EUFN: Is a U.S. Financials ETF Superior to a Europe-Focused Fund?",
-          "publisher": "Motley Fool",
-          "url": "https://www.fool.com/coverage/etfs/2026/08/20/xlf-vs-eufn-is-a-u-s-financials-etf-superior-to-a-europe-focused-fund/",
-          "published_at": "2026-08-20T21:04:01+00:00"
-        },
-        {
-          "title": "Klarna Slides 5%, Affirm Slips 3%, but PayPal Stays in the Green: Is a Rotation in BNPL Stocks Afoot?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/20/klarna-slides-5-affirm-slips-3-but-paypal-stays-in-the-green-is-a-rotation-in-bnpl-stocks-afoot/",
-          "published_at": "2026-08-20T18:46:24+00:00"
-        },
-        {
-          "title": "Is Wall Street Bullish or Bearish on State Street Stock?",
+          "title": "Brown & Brown Stock Outlook: Is Wall Street Bullish or Bearish?",
           "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3946939/is-wall-street-bullish-or-bearish-on-state-street-stock",
-          "published_at": "2026-08-20T11:34:04+00:00"
+          "url": "https://www.barchart.com/story/news/3969613/brown-brown-stock-outlook-is-wall-street-bullish-or-bearish",
+          "published_at": "2026-08-21T12:53:15+00:00"
+        },
+        {
+          "title": "Cboe Global Markets Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/3968940/cboe-global-markets-stock-outlook-is-wall-street-bullish-or-bearish",
+          "published_at": "2026-08-21T12:18:53+00:00"
+        },
+        {
+          "title": "Is a Financial Sector ETF a Better Buy Than Picking the Stocks Yourself?",
+          "publisher": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/08/20/is-a-financial-sector-etf-a-better-buy-than-pickin/",
+          "published_at": "2026-08-21T02:50:00+00:00"
         }
       ]
     },
@@ -49,27 +49,27 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.1,
-      "pct": -1.87,
-      "contribution": -0.1704,
+      "pct": 1.29,
+      "contribution": 0.1177,
       "rank": 1,
       "news": [
+        {
+          "title": "IQVIA Holdings Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/3967899/iqvia-holdings-stock-outlook-is-wall-street-bullish-or-bearish",
+          "published_at": "2026-08-21T11:40:49+00:00"
+        },
+        {
+          "title": "Do Wall Street Analysts Like HCA Healthcare Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/3967779/do-wall-street-analysts-like-hca-healthcare-stock",
+          "published_at": "2026-08-21T11:33:36+00:00"
+        },
         {
           "title": "What Are Wall Street Analysts' Target Price for Agilent Technologies Stock?",
           "publisher": "Barchart",
           "url": "https://www.barchart.com/story/news/3954180/what-are-wall-street-analysts-target-price-for-agilent-technologies-stock",
           "published_at": "2026-08-20T16:14:47+00:00"
-        },
-        {
-          "title": "Are Wall Street Analysts Bullish on Vertex Stock?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3943755/are-wall-street-analysts-bullish-on-vertex-stock",
-          "published_at": "2026-08-20T07:18:50+00:00"
-        },
-        {
-          "title": "Moderna Rockets 93%, Merck Jumps 7% as Melanoma Therapy Meets Primary Goal in Phase 3 Trial",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/19/moderna-rockets-93-merck-jumps-7-as-melanoma-therapy-meets-primary-goal-in-phase-3-trial/",
-          "published_at": "2026-08-19T13:22:02+00:00"
         }
       ]
     },
@@ -77,27 +77,27 @@
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.57,
-      "pct": -1.61,
-      "contribution": -0.1541,
-      "rank": 2,
+      "pct": 1.15,
+      "contribution": 0.1099,
+      "rank": 3,
       "news": [
-        {
-          "title": "What Are Wall Street Analysts' Target Price for lululemon athletica Stock?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3933367/what-are-wall-street-analysts-target-price-for-lululemon-athletica-stock",
-          "published_at": "2026-08-19T16:24:11+00:00"
-        },
-        {
-          "title": "Wynn Resorts Stock: Is Wall Street Bullish or Bearish?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3931101/wynn-resorts-stock-is-wall-street-bullish-or-bearish",
-          "published_at": "2026-08-19T14:30:43+00:00"
-        },
         {
           "title": "Should You Invest in the State Street Consumer Discretionary Select Sector SPDR ETF (XLY)?",
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/markets/stocks/articles/invest-state-street-consumer-discretionary-102002296.html",
           "published_at": "2026-08-20T10:20:02+00:00"
+        },
+        {
+          "title": "Sector Update: Consumer Stocks Higher Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-higher-afternoon-194659617.html",
+          "published_at": "2026-08-21T19:46:59+00:00"
+        },
+        {
+          "title": "Sector Update: Consumer Stocks Rise Friday Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-friday-172919487.html",
+          "published_at": "2026-08-21T17:29:19+00:00"
         }
       ]
     },
@@ -105,8 +105,8 @@
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.61,
-      "pct": -1.41,
-      "contribution": -0.065,
+      "pct": 0.79,
+      "contribution": 0.0362,
       "rank": null,
       "news": []
     },
@@ -114,8 +114,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.36,
-      "pct": 0.27,
-      "contribution": 0.009,
+      "pct": -0.17,
+      "contribution": -0.0058,
       "rank": null,
       "news": []
     },
@@ -123,8 +123,8 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 8.16,
-      "pct": -1.2,
-      "contribution": -0.0978,
+      "pct": 0.27,
+      "contribution": 0.0218,
       "rank": null,
       "news": []
     },
@@ -132,8 +132,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 2.15,
-      "pct": -0.57,
-      "contribution": -0.0122,
+      "pct": -2.28,
+      "contribution": -0.0491,
       "rank": null,
       "news": []
     },
@@ -141,8 +141,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.62,
-      "pct": -0.19,
-      "contribution": -0.0031,
+      "pct": 2.14,
+      "contribution": 0.0346,
       "rank": null,
       "news": []
     },
@@ -150,8 +150,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.88,
-      "pct": 0.2,
-      "contribution": 0.0038,
+      "pct": 0.0,
+      "contribution": 0.0,
       "rank": null,
       "news": []
     },
@@ -159,8 +159,8 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.91,
-      "pct": -0.57,
-      "contribution": -0.057,
+      "pct": 0.65,
+      "contribution": 0.0645,
       "rank": null,
       "news": []
     }
