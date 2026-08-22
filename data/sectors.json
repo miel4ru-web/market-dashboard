@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:19:16.533478+09:00",
+  "generated_at": "2026-08-23T08:16:32.014778+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -66,10 +66,10 @@
           "published_at": "2026-08-21T11:33:36+00:00"
         },
         {
-          "title": "What Are Wall Street Analysts' Target Price for Agilent Technologies Stock?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3954180/what-are-wall-street-analysts-target-price-for-agilent-technologies-stock",
-          "published_at": "2026-08-20T16:14:47+00:00"
+          "title": "Thank Moderna for the Healthcare Sector’s Standout Week",
+          "publisher": "Barrons.com",
+          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-082126/card/thank-moderna-for-the-healthcare-sector-s-standout-week-K7SH8itZ6eDPCPM3Z08n?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-08-21T18:57:36+00:00"
         }
       ]
     },
@@ -82,12 +82,6 @@
       "rank": 3,
       "news": [
         {
-          "title": "Should You Invest in the State Street Consumer Discretionary Select Sector SPDR ETF (XLY)?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/invest-state-street-consumer-discretionary-102002296.html",
-          "published_at": "2026-08-20T10:20:02+00:00"
-        },
-        {
           "title": "Sector Update: Consumer Stocks Higher Late Afternoon",
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-higher-afternoon-194659617.html",
@@ -98,6 +92,12 @@
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-friday-172919487.html",
           "published_at": "2026-08-21T17:29:19+00:00"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Bitcoin Moves Past $77,000",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-131505482.html",
+          "published_at": "2026-08-21T13:15:05+00:00"
         }
       ]
     },
