@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:16:32.014778+09:00",
+  "generated_at": "2026-08-24T08:16:40.326823+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -24,26 +24,7 @@
       "pct": 0.93,
       "contribution": 0.1139,
       "rank": 2,
-      "news": [
-        {
-          "title": "Brown & Brown Stock Outlook: Is Wall Street Bullish or Bearish?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3969613/brown-brown-stock-outlook-is-wall-street-bullish-or-bearish",
-          "published_at": "2026-08-21T12:53:15+00:00"
-        },
-        {
-          "title": "Cboe Global Markets Stock Outlook: Is Wall Street Bullish or Bearish?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3968940/cboe-global-markets-stock-outlook-is-wall-street-bullish-or-bearish",
-          "published_at": "2026-08-21T12:18:53+00:00"
-        },
-        {
-          "title": "Is a Financial Sector ETF a Better Buy Than Picking the Stocks Yourself?",
-          "publisher": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/08/20/is-a-financial-sector-etf-a-better-buy-than-pickin/",
-          "published_at": "2026-08-21T02:50:00+00:00"
-        }
-      ]
+      "news": []
     },
     {
       "label": "헬스케어",
@@ -52,26 +33,7 @@
       "pct": 1.29,
       "contribution": 0.1177,
       "rank": 1,
-      "news": [
-        {
-          "title": "IQVIA Holdings Stock Outlook: Is Wall Street Bullish or Bearish?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3967899/iqvia-holdings-stock-outlook-is-wall-street-bullish-or-bearish",
-          "published_at": "2026-08-21T11:40:49+00:00"
-        },
-        {
-          "title": "Do Wall Street Analysts Like HCA Healthcare Stock?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/3967779/do-wall-street-analysts-like-hca-healthcare-stock",
-          "published_at": "2026-08-21T11:33:36+00:00"
-        },
-        {
-          "title": "Thank Moderna for the Healthcare Sector’s Standout Week",
-          "publisher": "Barrons.com",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-082126/card/thank-moderna-for-the-healthcare-sector-s-standout-week-K7SH8itZ6eDPCPM3Z08n?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-08-21T18:57:36+00:00"
-        }
-      ]
+      "news": []
     },
     {
       "label": "임의소비재",
@@ -80,26 +42,7 @@
       "pct": 1.15,
       "contribution": 0.1099,
       "rank": 3,
-      "news": [
-        {
-          "title": "Sector Update: Consumer Stocks Higher Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-higher-afternoon-194659617.html",
-          "published_at": "2026-08-21T19:46:59+00:00"
-        },
-        {
-          "title": "Sector Update: Consumer Stocks Rise Friday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-friday-172919487.html",
-          "published_at": "2026-08-21T17:29:19+00:00"
-        },
-        {
-          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Bitcoin Moves Past $77,000",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-131505482.html",
-          "published_at": "2026-08-21T13:15:05+00:00"
-        }
-      ]
+      "news": []
     },
     {
       "label": "필수소비재",
