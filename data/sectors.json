@@ -1,55 +1,93 @@
 {
-  "generated_at": "2026-08-24T08:16:40.326823+09:00",
+  "generated_at": "2026-08-25T08:19:00.076892+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
-    "헬스케어",
+    "기술",
     "금융",
-    "임의소비재"
+    "커뮤니케이션서비스"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 37.4,
-      "pct": 0.11,
-      "contribution": 0.0429,
-      "rank": null,
-      "news": []
+      "pct": -1.78,
+      "contribution": -0.6651,
+      "rank": 1,
+      "news": [
+        {
+          "title": "Is Wall Street Bullish or Bearish on KLA Corporation Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4002860/is-wall-street-bullish-or-bearish-on-kla-corporation-stock",
+          "published_at": "2026-08-24T13:41:12+00:00"
+        },
+        {
+          "title": "What Are Wall Street Analysts' Target Price for CDW Corporation Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4001803/what-are-wall-street-analysts-target-price-for-cdw-corporation-stock",
+          "published_at": "2026-08-24T12:47:19+00:00"
+        },
+        {
+          "title": "Are Wall Street Analysts Bullish on VeriSign Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4000770/are-wall-street-analysts-bullish-on-verisign-stock",
+          "published_at": "2026-08-24T12:03:18+00:00"
+        }
+      ]
     },
     {
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.24,
-      "pct": 0.93,
-      "contribution": 0.1139,
+      "pct": 1.29,
+      "contribution": 0.1576,
       "rank": 2,
-      "news": []
+      "news": [
+        {
+          "title": "Which Credit Card Stock Has Dominated in 2026: Visa, Mastercard, or American Express?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/24/which-credit-card-stock-has-dominated-in-2026-visa-mastercard-or-american-express/",
+          "published_at": "2026-08-24T19:33:14+00:00"
+        },
+        {
+          "title": "Ares Management Stock: Analyst Estimates & Ratings",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4003681/ares-management-stock-analyst-estimates-ratings",
+          "published_at": "2026-08-24T14:33:25+00:00"
+        },
+        {
+          "title": "Are Wall Street Analysts Bullish on MSCI Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4001735/are-wall-street-analysts-bullish-on-msci-stock",
+          "published_at": "2026-08-24T12:42:53+00:00"
+        }
+      ]
     },
     {
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.1,
-      "pct": 1.29,
-      "contribution": 0.1177,
-      "rank": 1,
+      "pct": 0.05,
+      "contribution": 0.0042,
+      "rank": null,
       "news": []
     },
     {
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.57,
-      "pct": 1.15,
-      "contribution": 0.1099,
-      "rank": 3,
+      "pct": 0.24,
+      "contribution": 0.0227,
+      "rank": null,
       "news": []
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.61,
-      "pct": 0.79,
-      "contribution": 0.0362,
+      "pct": 1.7,
+      "contribution": 0.0783,
       "rank": null,
       "news": []
     },
@@ -57,8 +95,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.36,
-      "pct": -0.17,
-      "contribution": -0.0058,
+      "pct": -0.83,
+      "contribution": -0.028,
       "rank": null,
       "news": []
     },
@@ -66,8 +104,8 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 8.16,
-      "pct": 0.27,
-      "contribution": 0.0218,
+      "pct": -0.69,
+      "contribution": -0.0566,
       "rank": null,
       "news": []
     },
@@ -75,8 +113,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 2.15,
-      "pct": -2.28,
-      "contribution": -0.0491,
+      "pct": 1.05,
+      "contribution": 0.0226,
       "rank": null,
       "news": []
     },
@@ -84,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.62,
-      "pct": 2.14,
-      "contribution": 0.0346,
+      "pct": 0.07,
+      "contribution": 0.0012,
       "rank": null,
       "news": []
     },
@@ -93,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.88,
-      "pct": 0.0,
-      "contribution": 0.0,
+      "pct": 0.55,
+      "contribution": 0.0104,
       "rank": null,
       "news": []
     },
@@ -102,10 +140,17 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.91,
-      "pct": 0.65,
-      "contribution": 0.0645,
-      "rank": null,
-      "news": []
+      "pct": 0.83,
+      "contribution": 0.0818,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Do Wall Street Analysts Like The Trade Desk Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4005067/do-wall-street-analysts-like-the-trade-desk-stock",
+          "published_at": "2026-08-24T16:08:41+00:00"
+        }
+      ]
     }
   ]
 }

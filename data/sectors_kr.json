@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T08:16:41.827801+09:00",
+  "generated_at": "2026-08-25T08:19:01.638844+09:00",
   "weight_source": "equal_kr",
   "top_n": 3,
   "top_sectors": [
-    "중공업",
     "철강소재",
+    "헬스케어",
     "건설"
   ],
   "sectors": [
@@ -12,8 +12,8 @@
       "label": "IT",
       "ticker": "139260.KS",
       "weight_pct": 11.11,
-      "pct": -0.58,
-      "contribution": -0.0646,
+      "pct": -2.51,
+      "contribution": -0.2788,
       "rank": null,
       "news": []
     },
@@ -21,8 +21,8 @@
       "label": "금융",
       "ticker": "139270.KS",
       "weight_pct": 11.11,
-      "pct": 2.19,
-      "contribution": 0.2434,
+      "pct": -1.54,
+      "contribution": -0.1711,
       "rank": null,
       "news": []
     },
@@ -30,17 +30,17 @@
       "label": "헬스케어",
       "ticker": "227540.KS",
       "weight_pct": 11.11,
-      "pct": -2.25,
-      "contribution": -0.2505,
-      "rank": null,
+      "pct": 5.7,
+      "contribution": 0.6334,
+      "rank": 2,
       "news": []
     },
     {
       "label": "경기소비재",
       "ticker": "139290.KS",
       "weight_pct": 11.11,
-      "pct": -0.04,
-      "contribution": -0.0043,
+      "pct": 0.46,
+      "contribution": 0.0515,
       "rank": null,
       "news": []
     },
@@ -48,8 +48,8 @@
       "label": "생활소비재",
       "ticker": "227560.KS",
       "weight_pct": 11.11,
-      "pct": -0.35,
-      "contribution": -0.039,
+      "pct": 2.31,
+      "contribution": 0.2567,
       "rank": null,
       "news": []
     },
@@ -57,8 +57,8 @@
       "label": "에너지화학",
       "ticker": "139250.KS",
       "weight_pct": 11.11,
-      "pct": -1.95,
-      "contribution": -0.2171,
+      "pct": 0.14,
+      "contribution": 0.016,
       "rank": null,
       "news": []
     },
@@ -66,18 +66,18 @@
       "label": "중공업",
       "ticker": "139230.KS",
       "weight_pct": 11.11,
-      "pct": -4.23,
-      "contribution": -0.4702,
-      "rank": 1,
+      "pct": 0.85,
+      "contribution": 0.0946,
+      "rank": null,
       "news": []
     },
     {
       "label": "철강소재",
       "ticker": "139240.KS",
       "weight_pct": 11.11,
-      "pct": -2.59,
-      "contribution": -0.2882,
-      "rank": 2,
+      "pct": 5.9,
+      "contribution": 0.6551,
+      "rank": 1,
       "news": []
     },
     {
