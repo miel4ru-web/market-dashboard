@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-08-26T08:21:33.423067+09:00",
+  "generated_at": "2026-08-27T13:12:10.207799+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
     "기술",
-    "커뮤니케이션서비스",
-    "에너지"
+    "헬스케어",
+    "산업재"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 37.4,
-      "pct": 0.94,
-      "contribution": 0.351,
+      "pct": 0.61,
+      "contribution": 0.2264,
       "rank": 1,
       "news": [
         {
-          "title": "What Are Wall Street Analysts' Target Price for F5 Stock?",
+          "title": "Do Wall Street Analysts Like Keysight Technologies Stock?",
           "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4026625/what-are-wall-street-analysts-target-price-for-f5-stock",
-          "published_at": "2026-08-25T16:30:07+00:00"
+          "url": "https://www.barchart.com/story/news/4117712/do-wall-street-analysts-like-keysight-technologies-stock",
+          "published_at": "2026-08-26T16:11:02+00:00"
         },
         {
-          "title": "Is Wall Street Bullish or Bearish on Monolithic Power Stock?",
+          "title": "Gartner Stock: Is Wall Street Bullish or Bearish?",
           "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4013590/is-wall-street-bullish-or-bearish-on-monolithic-power-stock",
-          "published_at": "2026-08-25T04:23:08+00:00"
+          "url": "https://www.barchart.com/story/news/4098608/gartner-stock-is-wall-street-bullish-or-bearish",
+          "published_at": "2026-08-26T12:30:20+00:00"
         },
         {
-          "title": "Microsoft Just Ripped 28% in a Month. What Would It Take to Get MSFT Stock Up to $600?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/25/microsoft-just-ripped-28-in-a-month-what-would-it-take-to-get-msft-stock-up-to-600/",
-          "published_at": "2026-08-25T19:41:01+00:00"
+          "title": "Are Wall Street Analysts Bullish on Zebra Technologies Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4097241/are-wall-street-analysts-bullish-on-zebra-technologies-stock",
+          "published_at": "2026-08-26T12:17:34+00:00"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.24,
-      "pct": 0.15,
-      "contribution": 0.0189,
+      "pct": -0.09,
+      "contribution": -0.0105,
       "rank": null,
       "news": []
     },
@@ -49,17 +49,36 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.1,
-      "pct": 0.34,
-      "contribution": 0.0307,
-      "rank": null,
-      "news": []
+      "pct": -1.0,
+      "contribution": -0.0908,
+      "rank": 2,
+      "news": [
+        {
+          "title": "Are Wall Street Analysts Bullish on Labcorp Holdings Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4110328/are-wall-street-analysts-bullish-on-labcorp-holdings-stock",
+          "published_at": "2026-08-26T14:41:42+00:00"
+        },
+        {
+          "title": "Quest Diagnostics Stock: Is Wall Street Bullish or Bearish?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4025944/quest-diagnostics-stock-is-wall-street-bullish-or-bearish",
+          "published_at": "2026-08-25T15:52:43+00:00"
+        },
+        {
+          "title": "Should You Invest in the State Street Health Care Select Sector SPDR ETF ETF (XLV)?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/healthcare/articles/invest-state-street-health-care-102002646.html",
+          "published_at": "2026-08-26T10:20:02+00:00"
+        }
+      ]
     },
     {
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.57,
-      "pct": -0.3,
-      "contribution": -0.0283,
+      "pct": -0.67,
+      "contribution": -0.0641,
       "rank": null,
       "news": []
     },
@@ -67,8 +86,8 @@
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.61,
-      "pct": -1.06,
-      "contribution": -0.049,
+      "pct": -0.29,
+      "contribution": -0.0133,
       "rank": null,
       "news": []
     },
@@ -76,45 +95,45 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.36,
-      "pct": -1.66,
-      "contribution": -0.0559,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Should You Invest in the State Street Energy Select Sector SPDR ETF (XLE)?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/energy/articles/invest-state-street-energy-select-102003783.html",
-          "published_at": "2026-08-25T10:20:03+00:00"
-        },
-        {
-          "title": "Sector Update: Energy Stocks Fall Tuesday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-tuesday-175051761.html",
-          "published_at": "2026-08-25T17:50:51+00:00"
-        },
-        {
-          "title": "Sector Update: Energy Stocks Fall Tuesday",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-tuesday-200328287.html",
-          "published_at": "2026-08-25T20:03:28+00:00"
-        }
-      ]
+      "pct": 0.6,
+      "contribution": 0.02,
+      "rank": null,
+      "news": []
     },
     {
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 8.16,
-      "pct": -0.34,
-      "contribution": -0.0274,
-      "rank": null,
-      "news": []
+      "pct": 1.09,
+      "contribution": 0.0887,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Do Wall Street Analysts Like Allegion Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4023813/do-wall-street-analysts-like-allegion-stock",
+          "published_at": "2026-08-25T14:08:13+00:00"
+        },
+        {
+          "title": "Jacobs Solutions Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4020796/jacobs-solutions-stock-outlook-is-wall-street-bullish-or-bearish",
+          "published_at": "2026-08-25T12:28:44+00:00"
+        },
+        {
+          "title": "Should You Invest in the State Street Industrial Select Sector SPDR ETF (XLI)?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/invest-state-street-industrial-select-102002387.html",
+          "published_at": "2026-08-25T10:20:02+00:00"
+        }
+      ]
     },
     {
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 2.15,
-      "pct": 0.21,
-      "contribution": 0.0045,
+      "pct": 0.46,
+      "contribution": 0.0099,
       "rank": null,
       "news": []
     },
@@ -122,8 +141,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.62,
-      "pct": 0.0,
-      "contribution": 0.0,
+      "pct": 0.17,
+      "contribution": 0.0027,
       "rank": null,
       "news": []
     },
@@ -131,8 +150,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.88,
-      "pct": 0.07,
-      "contribution": 0.0012,
+      "pct": -0.6,
+      "contribution": -0.0112,
       "rank": null,
       "news": []
     },
@@ -140,23 +159,10 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.91,
-      "pct": 0.77,
-      "contribution": 0.0759,
-      "rank": 2,
-      "news": [
-        {
-          "title": "Are Wall Street Analysts Bullish on Fox Corporation Stock?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4021726/are-wall-street-analysts-bullish-on-fox-corporation-stock",
-          "published_at": "2026-08-25T12:53:25+00:00"
-        },
-        {
-          "title": "Do Wall Street Analysts Like The Trade Desk Stock?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4005067/do-wall-street-analysts-like-the-trade-desk-stock",
-          "published_at": "2026-08-24T16:08:41+00:00"
-        }
-      ]
+      "pct": -0.5,
+      "contribution": -0.0499,
+      "rank": null,
+      "news": []
     }
   ]
 }
