@@ -1,21 +1,27 @@
 {
-  "generated_at": "2026-08-27T13:12:10.207799+09:00",
+  "generated_at": "2026-08-28T15:28:39.504795+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
     "기술",
-    "헬스케어",
-    "산업재"
+    "커뮤니케이션서비스",
+    "임의소비재"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 37.4,
-      "pct": 0.61,
-      "contribution": 0.2264,
+      "pct": 3.16,
+      "contribution": 1.1803,
       "rank": 1,
       "news": [
+        {
+          "title": "Do Wall Street Analysts Like Teledyne Technologies Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4217866/do-wall-street-analysts-like-teledyne-technologies-stock",
+          "published_at": "2026-08-27T14:48:27+00:00"
+        },
         {
           "title": "Do Wall Street Analysts Like Keysight Technologies Stock?",
           "publisher": "Barchart",
@@ -23,16 +29,10 @@
           "published_at": "2026-08-26T16:11:02+00:00"
         },
         {
-          "title": "Gartner Stock: Is Wall Street Bullish or Bearish?",
+          "title": "Corpay Stock: Analyst Estimates & Ratings",
           "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4098608/gartner-stock-is-wall-street-bullish-or-bearish",
-          "published_at": "2026-08-26T12:30:20+00:00"
-        },
-        {
-          "title": "Are Wall Street Analysts Bullish on Zebra Technologies Stock?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4097241/are-wall-street-analysts-bullish-on-zebra-technologies-stock",
-          "published_at": "2026-08-26T12:17:34+00:00"
+          "url": "https://www.barchart.com/story/news/4104450/corpay-stock-analyst-estimates-ratings",
+          "published_at": "2026-08-26T13:33:07+00:00"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.24,
-      "pct": -0.09,
-      "contribution": -0.0105,
+      "pct": -0.65,
+      "contribution": -0.0798,
       "rank": null,
       "news": []
     },
@@ -49,45 +49,45 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.1,
-      "pct": -1.0,
-      "contribution": -0.0908,
-      "rank": 2,
-      "news": [
-        {
-          "title": "Are Wall Street Analysts Bullish on Labcorp Holdings Stock?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4110328/are-wall-street-analysts-bullish-on-labcorp-holdings-stock",
-          "published_at": "2026-08-26T14:41:42+00:00"
-        },
-        {
-          "title": "Quest Diagnostics Stock: Is Wall Street Bullish or Bearish?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4025944/quest-diagnostics-stock-is-wall-street-bullish-or-bearish",
-          "published_at": "2026-08-25T15:52:43+00:00"
-        },
-        {
-          "title": "Should You Invest in the State Street Health Care Select Sector SPDR ETF ETF (XLV)?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/healthcare/articles/invest-state-street-health-care-102002646.html",
-          "published_at": "2026-08-26T10:20:02+00:00"
-        }
-      ]
+      "pct": -1.13,
+      "contribution": -0.1028,
+      "rank": null,
+      "news": []
     },
     {
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.57,
-      "pct": -0.67,
-      "contribution": -0.0641,
-      "rank": null,
-      "news": []
+      "pct": -1.09,
+      "contribution": -0.1046,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Are Wall Street Analysts Predicting Deckers Outdoor Stock Will Climb or Sink?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4202808/are-wall-street-analysts-predicting-deckers-outdoor-stock-will-climb-or-sink",
+          "published_at": "2026-08-27T12:05:40+00:00"
+        },
+        {
+          "title": "What Are Wall Street Analysts' Target Price for Chipotle Mexican Grill Stock?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4201572/what-are-wall-street-analysts-target-price-for-chipotle-mexican-grill-stock",
+          "published_at": "2026-08-27T11:55:13+00:00"
+        },
+        {
+          "title": "Avery Dennison Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4194055/avery-dennison-stock-outlook-is-wall-street-bullish-or-bearish",
+          "published_at": "2026-08-27T09:59:08+00:00"
+        }
+      ]
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.61,
-      "pct": -0.29,
-      "contribution": -0.0133,
+      "pct": -1.38,
+      "contribution": -0.0636,
       "rank": null,
       "news": []
     },
@@ -95,8 +95,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.36,
-      "pct": 0.6,
-      "contribution": 0.02,
+      "pct": -0.22,
+      "contribution": -0.0075,
       "rank": null,
       "news": []
     },
@@ -104,36 +104,17 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 8.16,
-      "pct": 1.09,
-      "contribution": 0.0887,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Do Wall Street Analysts Like Allegion Stock?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4023813/do-wall-street-analysts-like-allegion-stock",
-          "published_at": "2026-08-25T14:08:13+00:00"
-        },
-        {
-          "title": "Jacobs Solutions Stock Outlook: Is Wall Street Bullish or Bearish?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4020796/jacobs-solutions-stock-outlook-is-wall-street-bullish-or-bearish",
-          "published_at": "2026-08-25T12:28:44+00:00"
-        },
-        {
-          "title": "Should You Invest in the State Street Industrial Select Sector SPDR ETF (XLI)?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/invest-state-street-industrial-select-102002387.html",
-          "published_at": "2026-08-25T10:20:02+00:00"
-        }
-      ]
+      "pct": -0.85,
+      "contribution": -0.0697,
+      "rank": null,
+      "news": []
     },
     {
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 2.15,
-      "pct": 0.46,
-      "contribution": 0.0099,
+      "pct": -0.76,
+      "contribution": -0.0163,
       "rank": null,
       "news": []
     },
@@ -141,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.62,
-      "pct": 0.17,
-      "contribution": 0.0027,
+      "pct": -0.82,
+      "contribution": -0.0133,
       "rank": null,
       "news": []
     },
@@ -150,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.88,
-      "pct": -0.6,
-      "contribution": -0.0112,
+      "pct": -0.95,
+      "contribution": -0.0179,
       "rank": null,
       "news": []
     },
@@ -159,10 +140,29 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.91,
-      "pct": -0.5,
-      "contribution": -0.0499,
-      "rank": null,
-      "news": []
+      "pct": -1.07,
+      "contribution": -0.1056,
+      "rank": 2,
+      "news": [
+        {
+          "title": "News Corporation Stock: Analyst Estimates & Ratings",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4103252/news-corporation-stock-analyst-estimates-ratings",
+          "published_at": "2026-08-26T13:17:45+00:00"
+        },
+        {
+          "title": "Stock Market News for Aug 26, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-26-130500595.html",
+          "published_at": "2026-08-26T13:05:00+00:00"
+        },
+        {
+          "title": "Are Wall Street Analysts Predicting Paramount Skydance Stock Will Climb or Sink?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4084966/are-wall-street-analysts-predicting-paramount-skydance-stock-will-climb-or-sink",
+          "published_at": "2026-08-26T09:43:17+00:00"
+        }
+      ]
     }
   ]
 }
