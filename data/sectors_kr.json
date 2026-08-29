@@ -1,56 +1,37 @@
 {
-  "generated_at": "2026-08-28T15:28:42.299620+09:00",
+  "generated_at": "2026-08-29T12:59:59.702055+09:00",
   "weight_source": "equal_kr",
   "top_n": 3,
   "top_sectors": [
     "생활소비재",
-    "건설",
-    "IT"
+    "금융",
+    "에너지화학"
   ],
   "sectors": [
     {
       "label": "IT",
       "ticker": "139260.KS",
       "weight_pct": 11.11,
-      "pct": -1.32,
-      "contribution": -0.1467,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Samsung Gains as Nvidia Turns Memory Scarcity Into Pricing Power",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-gains-nvidia-turns-memory-193037956.html",
-          "published_at": "2026-08-27T19:30:37+00:00"
-        },
-        {
-          "title": "Micron Lags Despite NVIDIA’s $279B Memory Commitment; Western Digital Drops 4%, SK Hynix Ticks Up",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/27/micron-lags-despite-nvidias-279b-memory-commitment-western-digital-drops-4-sk-hynix-ticks-up/",
-          "published_at": "2026-08-27T18:18:58+00:00"
-        },
-        {
-          "title": "MU, SNDK, SKHY: Memory Stocks Surge Overnight After Nvidia More Than Doubles Purchases",
-          "publisher": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-skhy-memory-stocks-surge-overnight-after-nvidia-more-than-doubles-purchases/cZY8omTRJp1",
-          "published_at": "2026-08-27T04:18:05+00:00"
-        }
-      ]
+      "pct": -1.31,
+      "contribution": -0.1451,
+      "rank": null,
+      "news": []
     },
     {
       "label": "금융",
       "ticker": "139270.KS",
       "weight_pct": 11.11,
-      "pct": 1.12,
-      "contribution": 0.1247,
-      "rank": null,
+      "pct": 1.57,
+      "contribution": 0.1739,
+      "rank": 2,
       "news": []
     },
     {
       "label": "헬스케어",
       "ticker": "227540.KS",
       "weight_pct": 11.11,
-      "pct": -0.99,
-      "contribution": -0.1104,
+      "pct": -0.65,
+      "contribution": -0.0718,
       "rank": null,
       "news": []
     },
@@ -58,8 +39,8 @@
       "label": "경기소비재",
       "ticker": "139290.KS",
       "weight_pct": 11.11,
-      "pct": 0.72,
-      "contribution": 0.0796,
+      "pct": 1.11,
+      "contribution": 0.1239,
       "rank": null,
       "news": []
     },
@@ -67,8 +48,8 @@
       "label": "생활소비재",
       "ticker": "227560.KS",
       "weight_pct": 11.11,
-      "pct": 3.23,
-      "contribution": 0.3586,
+      "pct": 3.19,
+      "contribution": 0.3544,
       "rank": 1,
       "news": []
     },
@@ -76,17 +57,17 @@
       "label": "에너지화학",
       "ticker": "139250.KS",
       "weight_pct": 11.11,
-      "pct": 0.91,
-      "contribution": 0.1015,
-      "rank": null,
+      "pct": 1.43,
+      "contribution": 0.1586,
+      "rank": 3,
       "news": []
     },
     {
       "label": "중공업",
       "ticker": "139230.KS",
       "weight_pct": 11.11,
-      "pct": 0.04,
-      "contribution": 0.0041,
+      "pct": 0.41,
+      "contribution": 0.045,
       "rank": null,
       "news": []
     },
@@ -94,8 +75,8 @@
       "label": "철강소재",
       "ticker": "139240.KS",
       "weight_pct": 11.11,
-      "pct": 0.34,
-      "contribution": 0.0383,
+      "pct": 0.69,
+      "contribution": 0.0767,
       "rank": null,
       "news": []
     },
@@ -103,9 +84,9 @@
       "label": "건설",
       "ticker": "139220.KS",
       "weight_pct": 11.11,
-      "pct": -1.84,
-      "contribution": -0.2049,
-      "rank": 2,
+      "pct": -1.29,
+      "contribution": -0.1434,
+      "rank": null,
       "news": []
     }
   ]

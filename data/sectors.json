@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T15:28:39.504795+09:00",
+  "generated_at": "2026-08-29T12:59:58.057019+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -12,27 +12,27 @@
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 37.4,
-      "pct": 3.16,
-      "contribution": 1.1803,
+      "pct": -1.55,
+      "contribution": -0.579,
       "rank": 1,
       "news": [
         {
-          "title": "Do Wall Street Analysts Like Teledyne Technologies Stock?",
+          "title": "Broadcom Stock: Is AVGO Underperforming the Technology Sector?",
           "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4217866/do-wall-street-analysts-like-teledyne-technologies-stock",
-          "published_at": "2026-08-27T14:48:27+00:00"
+          "url": "https://www.barchart.com/story/news/4306103/broadcom-stock-is-avgo-underperforming-the-technology-sector",
+          "published_at": "2026-08-28T11:10:06+00:00"
         },
         {
-          "title": "Do Wall Street Analysts Like Keysight Technologies Stock?",
+          "title": "Alphabet Stock: Is GOOGL Underperforming the Technology Sector?",
           "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4117712/do-wall-street-analysts-like-keysight-technologies-stock",
-          "published_at": "2026-08-26T16:11:02+00:00"
+          "url": "https://www.barchart.com/story/news/4289961/alphabet-stock-is-googl-underperforming-the-technology-sector",
+          "published_at": "2026-08-28T07:03:08+00:00"
         },
         {
-          "title": "Corpay Stock: Analyst Estimates & Ratings",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4104450/corpay-stock-analyst-estimates-ratings",
-          "published_at": "2026-08-26T13:33:07+00:00"
+          "title": "Microsoft Just Gained 14% in a Month: Take Profits, or Buy More?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/28/microsoft-just-gained-14-in-a-month-take-profits-or-buy-more/",
+          "published_at": "2026-08-28T19:06:57+00:00"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.24,
-      "pct": -0.65,
-      "contribution": -0.0798,
+      "pct": 0.38,
+      "contribution": 0.0465,
       "rank": null,
       "news": []
     },
@@ -49,8 +49,8 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.1,
-      "pct": -1.13,
-      "contribution": -0.1028,
+      "pct": -0.24,
+      "contribution": -0.0223,
       "rank": null,
       "news": []
     },
@@ -58,8 +58,8 @@
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.57,
-      "pct": -1.09,
-      "contribution": -0.1046,
+      "pct": 1.15,
+      "contribution": 0.1098,
       "rank": 3,
       "news": [
         {
@@ -86,8 +86,8 @@
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.61,
-      "pct": -1.38,
-      "contribution": -0.0636,
+      "pct": 0.43,
+      "contribution": 0.02,
       "rank": null,
       "news": []
     },
@@ -95,8 +95,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.36,
-      "pct": -0.22,
-      "contribution": -0.0075,
+      "pct": 0.63,
+      "contribution": 0.021,
       "rank": null,
       "news": []
     },
@@ -104,8 +104,8 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 8.16,
-      "pct": -0.85,
-      "contribution": -0.0697,
+      "pct": -0.93,
+      "contribution": -0.0758,
       "rank": null,
       "news": []
     },
@@ -113,8 +113,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 2.15,
-      "pct": -0.76,
-      "contribution": -0.0163,
+      "pct": -1.04,
+      "contribution": -0.0224,
       "rank": null,
       "news": []
     },
@@ -122,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.62,
-      "pct": -0.82,
-      "contribution": -0.0133,
+      "pct": -0.09,
+      "contribution": -0.0015,
       "rank": null,
       "news": []
     },
@@ -131,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.88,
-      "pct": -0.95,
-      "contribution": -0.0179,
+      "pct": -0.4,
+      "contribution": -0.0076,
       "rank": null,
       "news": []
     },
@@ -140,29 +140,10 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.91,
-      "pct": -1.07,
-      "contribution": -0.1056,
+      "pct": 1.42,
+      "contribution": 0.1405,
       "rank": 2,
-      "news": [
-        {
-          "title": "News Corporation Stock: Analyst Estimates & Ratings",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4103252/news-corporation-stock-analyst-estimates-ratings",
-          "published_at": "2026-08-26T13:17:45+00:00"
-        },
-        {
-          "title": "Stock Market News for Aug 26, 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-26-130500595.html",
-          "published_at": "2026-08-26T13:05:00+00:00"
-        },
-        {
-          "title": "Are Wall Street Analysts Predicting Paramount Skydance Stock Will Climb or Sink?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4084966/are-wall-street-analysts-predicting-paramount-skydance-stock-will-climb-or-sink",
-          "published_at": "2026-08-26T09:43:17+00:00"
-        }
-      ]
+      "news": []
     }
   ]
 }
