@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T12:59:58.057019+09:00",
+  "generated_at": "2026-08-30T09:59:26.315165+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -63,22 +63,22 @@
       "rank": 3,
       "news": [
         {
-          "title": "Are Wall Street Analysts Predicting Deckers Outdoor Stock Will Climb or Sink?",
+          "title": "NVR Stock: Analyst Estimates & Ratings",
           "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4202808/are-wall-street-analysts-predicting-deckers-outdoor-stock-will-climb-or-sink",
-          "published_at": "2026-08-27T12:05:40+00:00"
+          "url": "https://www.barchart.com/story/news/4310634/nvr-stock-analyst-estimates-ratings",
+          "published_at": "2026-08-28T12:06:55+00:00"
         },
         {
-          "title": "What Are Wall Street Analysts' Target Price for Chipotle Mexican Grill Stock?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4201572/what-are-wall-street-analysts-target-price-for-chipotle-mexican-grill-stock",
-          "published_at": "2026-08-27T11:55:13+00:00"
+          "title": "Sector Update: Consumer Stocks Rise Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-195435621.html",
+          "published_at": "2026-08-28T19:54:35+00:00"
         },
         {
-          "title": "Avery Dennison Stock Outlook: Is Wall Street Bullish or Bearish?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4194055/avery-dennison-stock-outlook-is-wall-street-bullish-or-bearish",
-          "published_at": "2026-08-27T09:59:08+00:00"
+          "title": "Sector Update: Consumer Stocks Rise Friday Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-friday-173326645.html",
+          "published_at": "2026-08-28T17:33:26+00:00"
         }
       ]
     },
