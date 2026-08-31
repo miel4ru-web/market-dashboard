@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T09:59:26.315165+09:00",
+  "generated_at": "2026-08-31T10:03:39.147053+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -15,26 +15,7 @@
       "pct": -1.55,
       "contribution": -0.579,
       "rank": 1,
-      "news": [
-        {
-          "title": "Broadcom Stock: Is AVGO Underperforming the Technology Sector?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4306103/broadcom-stock-is-avgo-underperforming-the-technology-sector",
-          "published_at": "2026-08-28T11:10:06+00:00"
-        },
-        {
-          "title": "Alphabet Stock: Is GOOGL Underperforming the Technology Sector?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4289961/alphabet-stock-is-googl-underperforming-the-technology-sector",
-          "published_at": "2026-08-28T07:03:08+00:00"
-        },
-        {
-          "title": "Microsoft Just Gained 14% in a Month: Take Profits, or Buy More?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/28/microsoft-just-gained-14-in-a-month-take-profits-or-buy-more/",
-          "published_at": "2026-08-28T19:06:57+00:00"
-        }
-      ]
+      "news": []
     },
     {
       "label": "금융",
@@ -61,26 +42,7 @@
       "pct": 1.15,
       "contribution": 0.1098,
       "rank": 3,
-      "news": [
-        {
-          "title": "NVR Stock: Analyst Estimates & Ratings",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4310634/nvr-stock-analyst-estimates-ratings",
-          "published_at": "2026-08-28T12:06:55+00:00"
-        },
-        {
-          "title": "Sector Update: Consumer Stocks Rise Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-195435621.html",
-          "published_at": "2026-08-28T19:54:35+00:00"
-        },
-        {
-          "title": "Sector Update: Consumer Stocks Rise Friday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-friday-173326645.html",
-          "published_at": "2026-08-28T17:33:26+00:00"
-        }
-      ]
+      "news": []
     },
     {
       "label": "필수소비재",
