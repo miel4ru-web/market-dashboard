@@ -1,28 +1,47 @@
 {
-  "generated_at": "2026-08-31T10:03:39.147053+09:00",
+  "generated_at": "2026-09-01T10:35:16.070072+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
     "기술",
     "커뮤니케이션서비스",
-    "임의소비재"
+    "산업재"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 37.4,
-      "pct": -1.55,
-      "contribution": -0.579,
+      "pct": 0.44,
+      "contribution": 0.1631,
       "rank": 1,
-      "news": []
+      "news": [
+        {
+          "title": "Sector Update: Tech Stocks Edge Lower Monday Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-edge-lower-174108486.html",
+          "published_at": "2026-08-31T17:41:08+00:00"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html",
+          "published_at": "2026-08-31T13:28:01+00:00"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-200045050.html",
+          "published_at": "2026-08-31T20:00:45+00:00"
+        }
+      ]
     },
     {
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.24,
-      "pct": 0.38,
-      "contribution": 0.0465,
+      "pct": -0.67,
+      "contribution": -0.0822,
       "rank": null,
       "news": []
     },
@@ -30,8 +49,8 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.1,
-      "pct": -0.24,
-      "contribution": -0.0223,
+      "pct": -0.36,
+      "contribution": -0.033,
       "rank": null,
       "news": []
     },
@@ -39,17 +58,17 @@
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.57,
-      "pct": 1.15,
-      "contribution": 0.1098,
-      "rank": 3,
+      "pct": -0.53,
+      "contribution": -0.0506,
+      "rank": null,
       "news": []
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.61,
-      "pct": 0.43,
-      "contribution": 0.02,
+      "pct": -0.55,
+      "contribution": -0.0254,
       "rank": null,
       "news": []
     },
@@ -57,8 +76,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.36,
-      "pct": 0.63,
-      "contribution": 0.021,
+      "pct": 2.04,
+      "contribution": 0.0686,
       "rank": null,
       "news": []
     },
@@ -66,17 +85,30 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 8.16,
-      "pct": -0.93,
-      "contribution": -0.0758,
-      "rank": null,
-      "news": []
+      "pct": -1.13,
+      "contribution": -0.0926,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Why Industrial Stocks Could Keep Losing Steam",
+          "publisher": "Barrons.com",
+          "url": "https://www.barrons.com/articles/industrial-stock-stocks-etf-technical-analysis-364671ca?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-08-31T17:28:00+00:00"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html",
+          "published_at": "2026-08-31T13:28:01+00:00"
+        }
+      ]
     },
     {
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 2.15,
-      "pct": -1.04,
-      "contribution": -0.0224,
+      "pct": -1.17,
+      "contribution": -0.0252,
       "rank": null,
       "news": []
     },
@@ -84,8 +116,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.62,
-      "pct": -0.09,
-      "contribution": -0.0015,
+      "pct": -0.92,
+      "contribution": -0.0149,
       "rank": null,
       "news": []
     },
@@ -93,8 +125,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.88,
-      "pct": -0.4,
-      "contribution": -0.0076,
+      "pct": -0.83,
+      "contribution": -0.0156,
       "rank": null,
       "news": []
     },
@@ -102,8 +134,8 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.91,
-      "pct": 1.42,
-      "contribution": 0.1405,
+      "pct": -1.35,
+      "contribution": -0.1342,
       "rank": 2,
       "news": []
     }
