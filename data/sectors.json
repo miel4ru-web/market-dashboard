@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-01T10:35:16.070072+09:00",
+  "generated_at": "2026-09-02T09:47:12.402531+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
     "기술",
-    "커뮤니케이션서비스",
+    "임의소비재",
     "산업재"
   ],
   "sectors": [
@@ -12,27 +12,27 @@
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 37.4,
-      "pct": 0.44,
-      "contribution": 0.1631,
+      "pct": -1.53,
+      "contribution": -0.5735,
       "rank": 1,
       "news": [
         {
-          "title": "Sector Update: Tech Stocks Edge Lower Monday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-edge-lower-174108486.html",
-          "published_at": "2026-08-31T17:41:08+00:00"
+          "title": "Better Tech ETF for Artificial Intelligence: Vanguard's VGT with Broad Exposure or State Street XLK's Concentrated Mega-Cap Strategy",
+          "publisher": "Motley Fool",
+          "url": "https://www.fool.com/coverage/etfs/2026/09/01/better-tech-etf-for-artificial-intelligence-vanguard-s-vgt-with-broad-exposure-or-state-street-xlk-s-concentrated-mega-cap-strategy/",
+          "published_at": "2026-09-01T22:47:41+00:00"
         },
         {
-          "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html",
-          "published_at": "2026-08-31T13:28:01+00:00"
+          "title": "Intel Stock: Is INTC Outperforming the Technology Sector?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4371647/intel-stock-is-intc-outperforming-the-technology-sector",
+          "published_at": "2026-09-01T11:12:40+00:00"
         },
         {
-          "title": "Sector Update: Tech Stocks Rise Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-200045050.html",
-          "published_at": "2026-08-31T20:00:45+00:00"
+          "title": "Forget Diversification — Investors Are Betting Everything on Tech ETFs (And the Numbers Are Jaw-Dropping)",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/01/forget-diversification-investors-are-betting-everything-on-tech-etfs-and-the-numbers-are-jaw-dropping/",
+          "published_at": "2026-09-01T10:56:50+00:00"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.24,
-      "pct": -0.67,
-      "contribution": -0.0822,
+      "pct": -0.88,
+      "contribution": -0.1082,
       "rank": null,
       "news": []
     },
@@ -49,8 +49,8 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.1,
-      "pct": -0.36,
-      "contribution": -0.033,
+      "pct": 0.66,
+      "contribution": 0.0603,
       "rank": null,
       "news": []
     },
@@ -58,17 +58,36 @@
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.57,
-      "pct": -0.53,
-      "contribution": -0.0506,
-      "rank": null,
-      "news": []
+      "pct": -1.72,
+      "contribution": -0.1642,
+      "rank": 2,
+      "news": [
+        {
+          "title": "Shopify Falls 4% as Profit Taking Follows 18% Monthly Run, eBay and Etsy Slip",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/31/shopify-falls-4-as-profit-taking-follows-18-monthly-run-ebay-and-etsy-slip/",
+          "published_at": "2026-08-31T16:43:48+00:00"
+        },
+        {
+          "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194112336.html",
+          "published_at": "2026-09-01T19:41:12+00:00"
+        },
+        {
+          "title": "Sector Update: Consumer Stocks Mixed in Afternoon Trading",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-180052939.html",
+          "published_at": "2026-09-01T18:00:52+00:00"
+        }
+      ]
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.61,
-      "pct": -0.55,
-      "contribution": -0.0254,
+      "pct": 0.32,
+      "contribution": 0.0146,
       "rank": null,
       "news": []
     },
@@ -76,8 +95,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.36,
-      "pct": 2.04,
-      "contribution": 0.0686,
+      "pct": 1.27,
+      "contribution": 0.0426,
       "rank": null,
       "news": []
     },
@@ -85,10 +104,16 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 8.16,
-      "pct": -1.13,
-      "contribution": -0.0926,
+      "pct": -1.37,
+      "contribution": -0.1118,
       "rank": 3,
       "news": [
+        {
+          "title": "U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building.",
+          "publisher": "Barrons.com",
+          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-09-01T14:23:23+00:00"
+        },
         {
           "title": "Why Industrial Stocks Could Keep Losing Steam",
           "publisher": "Barrons.com",
@@ -96,10 +121,10 @@
           "published_at": "2026-08-31T17:28:00+00:00"
         },
         {
-          "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks",
+          "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html",
-          "published_at": "2026-08-31T13:28:01+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html",
+          "published_at": "2026-09-01T12:59:41+00:00"
         }
       ]
     },
@@ -107,8 +132,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 2.15,
-      "pct": -1.17,
-      "contribution": -0.0252,
+      "pct": 0.78,
+      "contribution": 0.0168,
       "rank": null,
       "news": []
     },
@@ -116,8 +141,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.62,
-      "pct": -0.92,
-      "contribution": -0.0149,
+      "pct": -1.18,
+      "contribution": -0.0191,
       "rank": null,
       "news": []
     },
@@ -125,8 +150,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.88,
-      "pct": -0.83,
-      "contribution": -0.0156,
+      "pct": -0.16,
+      "contribution": -0.003,
       "rank": null,
       "news": []
     },
@@ -134,9 +159,9 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.91,
-      "pct": -1.35,
-      "contribution": -0.1342,
-      "rank": 2,
+      "pct": -0.52,
+      "contribution": -0.0516,
+      "rank": null,
       "news": []
     }
   ]
