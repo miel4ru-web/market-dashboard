@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-02T09:47:13.865753+09:00",
+  "generated_at": "2026-09-03T09:55:17.109907+09:00",
   "weight_source": "equal_kr",
   "top_n": 3,
   "top_sectors": [
-    "경기소비재",
-    "에너지화학",
-    "철강소재"
+    "금융",
+    "건설",
+    "생활소비재"
   ],
   "sectors": [
     {
       "label": "IT",
       "ticker": "139260.KS",
       "weight_pct": 11.11,
-      "pct": -2.11,
-      "contribution": -0.2347,
+      "pct": 0.58,
+      "contribution": 0.0643,
       "rank": null,
       "news": []
     },
@@ -21,17 +21,24 @@
       "label": "금융",
       "ticker": "139270.KS",
       "weight_pct": 11.11,
-      "pct": -0.69,
-      "contribution": -0.0769,
-      "rank": null,
-      "news": []
+      "pct": 3.97,
+      "contribution": 0.4409,
+      "rank": 1,
+      "news": [
+        {
+          "title": "Recent Price Trend in KB Financial (KB) is Your Friend, Here's Why",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/recent-price-trend-kb-financial-125502163.html",
+          "published_at": "2026-09-02T12:55:02+00:00"
+        }
+      ]
     },
     {
       "label": "헬스케어",
       "ticker": "227540.KS",
       "weight_pct": 11.11,
-      "pct": -0.13,
-      "contribution": -0.0142,
+      "pct": 0.82,
+      "contribution": 0.0914,
       "rank": null,
       "news": []
     },
@@ -39,48 +46,35 @@
       "label": "경기소비재",
       "ticker": "139290.KS",
       "weight_pct": 11.11,
-      "pct": -3.39,
-      "contribution": -0.377,
-      "rank": 1,
-      "news": [
-        {
-          "title": "Hyundai, Amazon Autos aim for international expansion",
-          "publisher": "Wards Auto",
-          "url": "https://www.wardsauto.com/news/hyundai-amazon-autos-aim-for-international-expansion/829025/",
-          "published_at": "2026-09-01T12:05:00+00:00"
-        },
-        {
-          "title": "Analysis-Toyota and Honda may get stuck with the bill for Trump’s Canada tariffs",
-          "publisher": "Reuters",
-          "url": "https://finance.yahoo.com/news/analysis-toyota-honda-may-stuck-034938284.html",
-          "published_at": "2026-08-31T03:49:38+00:00"
-        }
-      ]
+      "pct": 0.79,
+      "contribution": 0.0882,
+      "rank": null,
+      "news": []
     },
     {
       "label": "생활소비재",
       "ticker": "227560.KS",
       "weight_pct": 11.11,
-      "pct": -1.16,
-      "contribution": -0.1284,
-      "rank": null,
+      "pct": 1.52,
+      "contribution": 0.1691,
+      "rank": 3,
       "news": []
     },
     {
       "label": "에너지화학",
       "ticker": "139250.KS",
       "weight_pct": 11.11,
-      "pct": -2.63,
-      "contribution": -0.2918,
-      "rank": 2,
+      "pct": -0.11,
+      "contribution": -0.0127,
+      "rank": null,
       "news": []
     },
     {
       "label": "중공업",
       "ticker": "139230.KS",
       "weight_pct": 11.11,
-      "pct": -2.45,
-      "contribution": -0.2725,
+      "pct": 0.57,
+      "contribution": 0.0634,
       "rank": null,
       "news": []
     },
@@ -88,31 +82,18 @@
       "label": "철강소재",
       "ticker": "139240.KS",
       "weight_pct": 11.11,
-      "pct": -2.62,
-      "contribution": -0.2908,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Posco (PKX) Upgraded to Strong Buy: Here's What You Should Know",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/posco-pkx-upgraded-strong-buy-160001524.html",
-          "published_at": "2026-09-01T16:00:01+00:00"
-        },
-        {
-          "title": "Best Value Stocks to Buy for September 1st",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/best-value-stocks-buy-september-084700033.html",
-          "published_at": "2026-09-01T08:47:00+00:00"
-        }
-      ]
+      "pct": 0.6,
+      "contribution": 0.0664,
+      "rank": null,
+      "news": []
     },
     {
       "label": "건설",
       "ticker": "139220.KS",
       "weight_pct": 11.11,
-      "pct": -1.69,
-      "contribution": -0.1873,
-      "rank": null,
+      "pct": 1.97,
+      "contribution": 0.2185,
+      "rank": 2,
       "news": []
     }
   ]

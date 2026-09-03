@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T09:47:12.402531+09:00",
+  "generated_at": "2026-09-03T09:55:15.281972+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -29,10 +29,10 @@
           "published_at": "2026-09-01T11:12:40+00:00"
         },
         {
-          "title": "Forget Diversification — Investors Are Betting Everything on Tech ETFs (And the Numbers Are Jaw-Dropping)",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/01/forget-diversification-investors-are-betting-everything-on-tech-etfs-and-the-numbers-are-jaw-dropping/",
-          "published_at": "2026-09-01T10:56:50+00:00"
+          "title": "Sector Update: Tech Stocks Mixed Wednesday Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-wednesday-172723766.html",
+          "published_at": "2026-09-02T17:27:23+00:00"
         }
       ]
     },
@@ -63,10 +63,10 @@
       "rank": 2,
       "news": [
         {
-          "title": "Shopify Falls 4% as Profit Taking Follows 18% Monthly Run, eBay and Etsy Slip",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/31/shopify-falls-4-as-profit-taking-follows-18-monthly-run-ebay-and-etsy-slip/",
-          "published_at": "2026-08-31T16:43:48+00:00"
+          "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html",
+          "published_at": "2026-09-02T13:08:27+00:00"
         },
         {
           "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
@@ -109,22 +109,22 @@
       "rank": 3,
       "news": [
         {
+          "title": "Lockheed Martin Stock: Is LMT Outperforming the Industrial Sector?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4398862/lockheed-martin-stock-is-lmt-outperforming-the-industrial-sector",
+          "published_at": "2026-09-02T12:34:16+00:00"
+        },
+        {
           "title": "U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building.",
           "publisher": "Barrons.com",
           "url": "https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo",
           "published_at": "2026-09-01T14:23:23+00:00"
         },
         {
-          "title": "Why Industrial Stocks Could Keep Losing Steam",
-          "publisher": "Barrons.com",
-          "url": "https://www.barrons.com/articles/industrial-stock-stocks-etf-technical-analysis-364671ca?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-08-31T17:28:00+00:00"
-        },
-        {
-          "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Oil Prices Advance",
+          "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125941277.html",
-          "published_at": "2026-09-01T12:59:41+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html",
+          "published_at": "2026-09-02T13:08:27+00:00"
         }
       ]
     },
