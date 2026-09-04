@@ -1,93 +1,93 @@
 {
-  "generated_at": "2026-09-03T09:55:15.281972+09:00",
+  "generated_at": "2026-09-04T09:41:58.584372+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
-    "기술",
-    "임의소비재",
-    "산업재"
+    "커뮤니케이션서비스",
+    "금융",
+    "헬스케어"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 37.4,
-      "pct": -1.53,
-      "contribution": -0.5735,
-      "rank": 1,
-      "news": [
-        {
-          "title": "Better Tech ETF for Artificial Intelligence: Vanguard's VGT with Broad Exposure or State Street XLK's Concentrated Mega-Cap Strategy",
-          "publisher": "Motley Fool",
-          "url": "https://www.fool.com/coverage/etfs/2026/09/01/better-tech-etf-for-artificial-intelligence-vanguard-s-vgt-with-broad-exposure-or-state-street-xlk-s-concentrated-mega-cap-strategy/",
-          "published_at": "2026-09-01T22:47:41+00:00"
-        },
-        {
-          "title": "Intel Stock: Is INTC Outperforming the Technology Sector?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4371647/intel-stock-is-intc-outperforming-the-technology-sector",
-          "published_at": "2026-09-01T11:12:40+00:00"
-        },
-        {
-          "title": "Sector Update: Tech Stocks Mixed Wednesday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-wednesday-172723766.html",
-          "published_at": "2026-09-02T17:27:23+00:00"
-        }
-      ]
+      "pct": -0.02,
+      "contribution": -0.0081,
+      "rank": null,
+      "news": []
     },
     {
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.24,
-      "pct": -0.88,
-      "contribution": -0.1082,
-      "rank": null,
-      "news": []
+      "pct": 0.8,
+      "contribution": 0.0984,
+      "rank": 2,
+      "news": [
+        {
+          "title": "How Is Blackstone's Stock Performance Compared to Other Financial Stocks?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4427753/how-is-blackstone-s-stock-performance-compared-to-other-financial-stocks",
+          "published_at": "2026-09-03T15:48:44+00:00"
+        },
+        {
+          "title": "Sector Update: Financial Stocks Higher Thursday Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-thursday-175545893.html",
+          "published_at": "2026-09-03T17:55:45+00:00"
+        },
+        {
+          "title": "Sector Update: Financial Stocks Gain Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-gain-afternoon-195745734.html",
+          "published_at": "2026-09-03T19:57:45+00:00"
+        }
+      ]
     },
     {
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.1,
-      "pct": 0.66,
-      "contribution": 0.0603,
-      "rank": null,
-      "news": []
+      "pct": 0.75,
+      "contribution": 0.0679,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense",
+          "publisher": "Barrons.com",
+          "url": "https://www.barrons.com/articles/healthcare-biotech-pharma-stocks-lilly-7dc36442?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-09-03T17:39:00+00:00"
+        },
+        {
+          "title": "Bristol-Myers Squibb Stock: Is BMY Outperforming the Healthcare Sector?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4427483/bristol-myers-squibb-stock-is-bmy-outperforming-the-healthcare-sector",
+          "published_at": "2026-09-03T15:39:52+00:00"
+        },
+        {
+          "title": "Lilly’s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity",
+          "publisher": "MarketBeat",
+          "url": "https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "published_at": "2026-09-02T15:00:00+00:00"
+        }
+      ]
     },
     {
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.57,
-      "pct": -1.72,
-      "contribution": -0.1642,
-      "rank": 2,
-      "news": [
-        {
-          "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html",
-          "published_at": "2026-09-02T13:08:27+00:00"
-        },
-        {
-          "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-194112336.html",
-          "published_at": "2026-09-01T19:41:12+00:00"
-        },
-        {
-          "title": "Sector Update: Consumer Stocks Mixed in Afternoon Trading",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-180052939.html",
-          "published_at": "2026-09-01T18:00:52+00:00"
-        }
-      ]
+      "pct": 0.24,
+      "contribution": 0.0225,
+      "rank": null,
+      "news": []
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.61,
-      "pct": 0.32,
-      "contribution": 0.0146,
+      "pct": 0.33,
+      "contribution": 0.0151,
       "rank": null,
       "news": []
     },
@@ -95,8 +95,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.36,
-      "pct": 1.27,
-      "contribution": 0.0426,
+      "pct": 0.51,
+      "contribution": 0.0171,
       "rank": null,
       "news": []
     },
@@ -104,36 +104,17 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 8.16,
-      "pct": -1.37,
-      "contribution": -0.1118,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Lockheed Martin Stock: Is LMT Outperforming the Industrial Sector?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4398862/lockheed-martin-stock-is-lmt-outperforming-the-industrial-sector",
-          "published_at": "2026-09-02T12:34:16+00:00"
-        },
-        {
-          "title": "U.S. Manufacturing Growth Slowed in August. Supply Chain Issues Are Building.",
-          "publisher": "Barrons.com",
-          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-090126/card/u-s-manufacturing-growth-slowed-in-august-supply-chain-issues-are-building--pJHllKnBi2NV4gkF4V2N?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-09-01T14:23:23+00:00"
-        },
-        {
-          "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html",
-          "published_at": "2026-09-02T13:08:27+00:00"
-        }
-      ]
+      "pct": 0.03,
+      "contribution": 0.0024,
+      "rank": null,
+      "news": []
     },
     {
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 2.15,
-      "pct": 0.78,
-      "contribution": 0.0168,
+      "pct": 0.26,
+      "contribution": 0.0056,
       "rank": null,
       "news": []
     },
@@ -141,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.62,
-      "pct": -1.18,
-      "contribution": -0.0191,
+      "pct": 1.69,
+      "contribution": 0.0274,
       "rank": null,
       "news": []
     },
@@ -150,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.88,
-      "pct": -0.16,
-      "contribution": -0.003,
+      "pct": -0.7,
+      "contribution": -0.0132,
       "rank": null,
       "news": []
     },
@@ -159,10 +140,23 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.91,
-      "pct": -0.52,
-      "contribution": -0.0516,
-      "rank": null,
-      "news": []
+      "pct": 1.39,
+      "contribution": 0.1376,
+      "rank": 1,
+      "news": [
+        {
+          "title": "Sirius XM Rises 6% on Deutsche Bank Upgrade and $45 Price Target, Spotify Holds Steady",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/02/sirius-xm-rises-6-on-deutsche-bank-upgrade-and-45-price-target-spotify-holds-steady/",
+          "published_at": "2026-09-02T13:33:32+00:00"
+        },
+        {
+          "title": "Stock Market News for Sep 2, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-2-095800348.html",
+          "published_at": "2026-09-02T09:58:00+00:00"
+        }
+      ]
     }
   ]
 }
