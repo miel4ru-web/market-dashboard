@@ -1,28 +1,47 @@
 {
-  "generated_at": "2026-09-04T09:41:58.584372+09:00",
+  "generated_at": "2026-09-05T09:35:40.785454+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
-    "커뮤니케이션서비스",
+    "기술",
     "금융",
-    "헬스케어"
+    "임의소비재"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 37.4,
-      "pct": -0.02,
-      "contribution": -0.0081,
-      "rank": null,
-      "news": []
+      "pct": 1.29,
+      "contribution": 0.4828,
+      "rank": 1,
+      "news": [
+        {
+          "title": "3 No-Brainer Tech Stocks to Buy With $5,000 Right Now",
+          "publisher": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/03/3-no-brainer-tech-stocks-to-buy-with-5000-right-no/",
+          "published_at": "2026-09-03T07:57:00+00:00"
+        },
+        {
+          "title": "Exchange-Traded Funds Mixed, US Equities Lower After Midday",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html",
+          "published_at": "2026-09-04T17:09:37+00:00"
+        },
+        {
+          "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html",
+          "published_at": "2026-09-04T13:33:30+00:00"
+        }
+      ]
     },
     {
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.24,
-      "pct": 0.8,
-      "contribution": 0.0984,
+      "pct": 1.56,
+      "contribution": 0.1911,
       "rank": 2,
       "news": [
         {
@@ -32,16 +51,16 @@
           "published_at": "2026-09-03T15:48:44+00:00"
         },
         {
-          "title": "Sector Update: Financial Stocks Higher Thursday Afternoon",
+          "title": "Sector Update: Financial Stocks Retreat Friday Afternoon",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-higher-thursday-175545893.html",
-          "published_at": "2026-09-03T17:55:45+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-friday-174912344.html",
+          "published_at": "2026-09-04T17:49:12+00:00"
         },
         {
-          "title": "Sector Update: Financial Stocks Gain Late Afternoon",
+          "title": "Sector Update: Financial Stocks Retreat Late Afternoon",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-gain-afternoon-195745734.html",
-          "published_at": "2026-09-03T19:57:45+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-195642569.html",
+          "published_at": "2026-09-04T19:56:42+00:00"
         }
       ]
     },
@@ -49,45 +68,45 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.1,
-      "pct": 0.75,
-      "contribution": 0.0679,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense",
-          "publisher": "Barrons.com",
-          "url": "https://www.barrons.com/articles/healthcare-biotech-pharma-stocks-lilly-7dc36442?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-09-03T17:39:00+00:00"
-        },
-        {
-          "title": "Bristol-Myers Squibb Stock: Is BMY Outperforming the Healthcare Sector?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4427483/bristol-myers-squibb-stock-is-bmy-outperforming-the-healthcare-sector",
-          "published_at": "2026-09-03T15:39:52+00:00"
-        },
-        {
-          "title": "Lilly’s Merida Deal Shows the GLP-1 King Is Already Thinking Beyond Obesity",
-          "publisher": "MarketBeat",
-          "url": "https://www.marketbeat.com/articles/lillys-merida-deal-shows-the-glp-1-king-is-already-thinking-beyond-obesity/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "published_at": "2026-09-02T15:00:00+00:00"
-        }
-      ]
+      "pct": 0.18,
+      "contribution": 0.0163,
+      "rank": null,
+      "news": []
     },
     {
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.57,
-      "pct": 0.24,
-      "contribution": 0.0225,
-      "rank": null,
-      "news": []
+      "pct": 1.39,
+      "contribution": 0.1333,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Stock Market News for Sep 3, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html",
+          "published_at": "2026-09-03T09:58:00+00:00"
+        },
+        {
+          "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html",
+          "published_at": "2026-09-04T13:33:30+00:00"
+        },
+        {
+          "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html",
+          "published_at": "2026-09-03T13:20:19+00:00"
+        }
+      ]
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.61,
-      "pct": 0.33,
-      "contribution": 0.0151,
+      "pct": -0.32,
+      "contribution": -0.0146,
       "rank": null,
       "news": []
     },
@@ -95,8 +114,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.36,
-      "pct": 0.51,
-      "contribution": 0.0171,
+      "pct": -0.74,
+      "contribution": -0.0248,
       "rank": null,
       "news": []
     },
@@ -104,8 +123,8 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 8.16,
-      "pct": 0.03,
-      "contribution": 0.0024,
+      "pct": 1.03,
+      "contribution": 0.0841,
       "rank": null,
       "news": []
     },
@@ -113,8 +132,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 2.15,
-      "pct": 0.26,
-      "contribution": 0.0056,
+      "pct": 0.84,
+      "contribution": 0.0181,
       "rank": null,
       "news": []
     },
@@ -122,8 +141,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.62,
-      "pct": 1.69,
-      "contribution": 0.0274,
+      "pct": -0.62,
+      "contribution": -0.0101,
       "rank": null,
       "news": []
     },
@@ -131,8 +150,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.88,
-      "pct": -0.7,
-      "contribution": -0.0132,
+      "pct": 1.19,
+      "contribution": 0.0224,
       "rank": null,
       "news": []
     },
@@ -140,23 +159,10 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.91,
-      "pct": 1.39,
-      "contribution": 0.1376,
-      "rank": 1,
-      "news": [
-        {
-          "title": "Sirius XM Rises 6% on Deutsche Bank Upgrade and $45 Price Target, Spotify Holds Steady",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/02/sirius-xm-rises-6-on-deutsche-bank-upgrade-and-45-price-target-spotify-holds-steady/",
-          "published_at": "2026-09-02T13:33:32+00:00"
-        },
-        {
-          "title": "Stock Market News for Sep 2, 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-2-095800348.html",
-          "published_at": "2026-09-02T09:58:00+00:00"
-        }
-      ]
+      "pct": 0.85,
+      "contribution": 0.0846,
+      "rank": null,
+      "news": []
     }
   ]
 }
