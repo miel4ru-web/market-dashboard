@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:35:42.980422+09:00",
+  "generated_at": "2026-09-06T09:32:08.504734+09:00",
   "weight_source": "equal_kr",
   "top_n": 3,
   "top_sectors": [
@@ -17,22 +17,22 @@
       "rank": 1,
       "news": [
         {
-          "title": "Micron, SanDisk Lag Tech Rally as China Grabs Memory Market Share",
-          "publisher": "Benzinga Prediction Markets",
-          "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61613454/china-memory-market-share-micron-sandisk?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
-          "published_at": "2026-09-03T18:36:03+00:00"
-        },
-        {
-          "title": "Micron, Samsung, SK Hynix Suffer Drop In DRAM Market Share As China’s CXMT Pulls Ahead",
-          "publisher": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/micron-samsung-sk-hynix-suffer-drop-in-dram-market-share-as-china-s-cxmt-pulls-ahead/cZsMpSiRJHy",
-          "published_at": "2026-09-03T07:59:01+00:00"
+          "title": "South Korea exports surpass annual record as AI chip boom drives shipments",
+          "publisher": "Investing.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/south-korea-exports-surpass-annual-090758052.html",
+          "published_at": "2026-09-05T09:07:58+00:00"
         },
         {
           "title": "Apple Poised To Unveil Folding iPhone",
           "publisher": "Investor's Business Daily",
           "url": "https://www.investors.com/news/technology/apple-stock-folding-iphone-set-for-debut/?src=A00220&yptr=yahoo",
           "published_at": "2026-09-04T20:05:50+00:00"
+        },
+        {
+          "title": "Lone Star JV Spends $1.2B On 2M SF R&D Portfolio In Silicon Valley",
+          "publisher": "Bisnow",
+          "url": "https://www.bisnow.com/news/san-francisco/industrial/lone-star-jv-acquires-2-2m-sf-of-r-d-space-in-silicon-valley",
+          "published_at": "2026-09-04T18:08:47+00:00"
         }
       ]
     },

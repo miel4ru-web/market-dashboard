@@ -1,168 +1,150 @@
 {
-  "generated_at": "2026-09-05T09:35:40.785454+09:00",
+  "generated_at": "2026-09-06T09:32:06.415259+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
     "기술",
-    "금융",
-    "임의소비재"
+    "임의소비재",
+    "커뮤니케이션서비스"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
-      "weight_pct": 37.4,
-      "pct": 1.29,
-      "contribution": 0.4828,
+      "weight_pct": 38.69,
+      "pct": 0.7,
+      "contribution": 0.2726,
       "rank": 1,
       "news": [
         {
-          "title": "3 No-Brainer Tech Stocks to Buy With $5,000 Right Now",
-          "publisher": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/09/03/3-no-brainer-tech-stocks-to-buy-with-5000-right-no/",
-          "published_at": "2026-09-03T07:57:00+00:00"
+          "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194638593.html",
+          "published_at": "2026-09-04T19:46:38+00:00"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Gain Friday Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-friday-175251963.html",
+          "published_at": "2026-09-04T17:52:51+00:00"
         },
         {
           "title": "Exchange-Traded Funds Mixed, US Equities Lower After Midday",
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html",
           "published_at": "2026-09-04T17:09:37+00:00"
-        },
-        {
-          "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html",
-          "published_at": "2026-09-04T13:33:30+00:00"
         }
       ]
     },
     {
       "label": "금융",
       "ticker": "XLF",
-      "weight_pct": 12.24,
-      "pct": 1.56,
-      "contribution": 0.1911,
-      "rank": 2,
-      "news": [
-        {
-          "title": "How Is Blackstone's Stock Performance Compared to Other Financial Stocks?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4427753/how-is-blackstone-s-stock-performance-compared-to-other-financial-stocks",
-          "published_at": "2026-09-03T15:48:44+00:00"
-        },
-        {
-          "title": "Sector Update: Financial Stocks Retreat Friday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-friday-174912344.html",
-          "published_at": "2026-09-04T17:49:12+00:00"
-        },
-        {
-          "title": "Sector Update: Financial Stocks Retreat Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-retreat-afternoon-195642569.html",
-          "published_at": "2026-09-04T19:56:42+00:00"
-        }
-      ]
+      "weight_pct": 12.06,
+      "pct": -0.79,
+      "contribution": -0.0947,
+      "rank": null,
+      "news": []
     },
     {
       "label": "헬스케어",
       "ticker": "XLV",
-      "weight_pct": 9.1,
-      "pct": 0.18,
-      "contribution": 0.0163,
+      "weight_pct": 9.28,
+      "pct": -1.04,
+      "contribution": -0.097,
       "rank": null,
       "news": []
     },
     {
       "label": "임의소비재",
       "ticker": "XLY",
-      "weight_pct": 9.57,
-      "pct": 1.39,
-      "contribution": 0.1333,
-      "rank": 3,
+      "weight_pct": 9.31,
+      "pct": -1.33,
+      "contribution": -0.1239,
+      "rank": 2,
       "news": [
         {
-          "title": "Stock Market News for Sep 3, 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-3-095800036.html",
-          "published_at": "2026-09-03T09:58:00+00:00"
+          "title": "Sector Update: Consumer Stocks Fall Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-193633461.html",
+          "published_at": "2026-09-04T19:36:33+00:00"
         },
         {
           "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
           "publisher": "MT Newswires",
           "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html",
           "published_at": "2026-09-04T13:33:30+00:00"
-        },
-        {
-          "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html",
-          "published_at": "2026-09-03T13:20:19+00:00"
         }
       ]
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
-      "weight_pct": 4.61,
-      "pct": -0.32,
-      "contribution": -0.0146,
+      "weight_pct": 4.46,
+      "pct": -0.8,
+      "contribution": -0.0356,
       "rank": null,
       "news": []
     },
     {
       "label": "에너지",
       "ticker": "XLE",
-      "weight_pct": 3.36,
-      "pct": -0.74,
-      "contribution": -0.0248,
+      "weight_pct": 3.48,
+      "pct": -0.87,
+      "contribution": -0.0302,
       "rank": null,
       "news": []
     },
     {
       "label": "산업재",
       "ticker": "XLI",
-      "weight_pct": 8.16,
-      "pct": 1.03,
-      "contribution": 0.0841,
+      "weight_pct": 7.75,
+      "pct": 0.41,
+      "contribution": 0.0315,
       "rank": null,
       "news": []
     },
     {
       "label": "유틸리티",
       "ticker": "XLU",
-      "weight_pct": 2.15,
-      "pct": 0.84,
-      "contribution": 0.0181,
+      "weight_pct": 1.98,
+      "pct": 0.12,
+      "contribution": 0.0023,
       "rank": null,
       "news": []
     },
     {
       "label": "소재",
       "ticker": "XLB",
-      "weight_pct": 1.62,
-      "pct": -0.62,
-      "contribution": -0.0101,
+      "weight_pct": 1.68,
+      "pct": -0.34,
+      "contribution": -0.0057,
       "rank": null,
       "news": []
     },
     {
       "label": "부동산",
       "ticker": "XLRE",
-      "weight_pct": 1.88,
-      "pct": 1.19,
-      "contribution": 0.0224,
+      "weight_pct": 1.8,
+      "pct": -0.72,
+      "contribution": -0.013,
       "rank": null,
       "news": []
     },
     {
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
-      "weight_pct": 9.91,
-      "pct": 0.85,
-      "contribution": 0.0846,
-      "rank": null,
-      "news": []
+      "weight_pct": 9.5,
+      "pct": -1.19,
+      "contribution": -0.1131,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Stock Market News for Sep 4, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-4-090900700.html",
+          "published_at": "2026-09-04T09:09:00+00:00"
+        }
+      ]
     }
   ]
 }
