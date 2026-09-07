@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:32:06.415259+09:00",
+  "generated_at": "2026-09-07T09:39:02.189148+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -15,26 +15,7 @@
       "pct": 0.7,
       "contribution": 0.2726,
       "rank": 1,
-      "news": [
-        {
-          "title": "Sector Update: Tech Stocks Rise Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-194638593.html",
-          "published_at": "2026-09-04T19:46:38+00:00"
-        },
-        {
-          "title": "Sector Update: Tech Stocks Gain Friday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-friday-175251963.html",
-          "published_at": "2026-09-04T17:52:51+00:00"
-        },
-        {
-          "title": "Exchange-Traded Funds Mixed, US Equities Lower After Midday",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-mixed-us-170937609.html",
-          "published_at": "2026-09-04T17:09:37+00:00"
-        }
-      ]
+      "news": []
     },
     {
       "label": "금융",
@@ -61,20 +42,7 @@
       "pct": -1.33,
       "contribution": -0.1239,
       "rank": 2,
-      "news": [
-        {
-          "title": "Sector Update: Consumer Stocks Fall Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-fall-afternoon-193633461.html",
-          "published_at": "2026-09-04T19:36:33+00:00"
-        },
-        {
-          "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html",
-          "published_at": "2026-09-04T13:33:30+00:00"
-        }
-      ]
+      "news": []
     },
     {
       "label": "필수소비재",
@@ -137,14 +105,7 @@
       "pct": -1.19,
       "contribution": -0.1131,
       "rank": 3,
-      "news": [
-        {
-          "title": "Stock Market News for Sep 4, 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-4-090900700.html",
-          "published_at": "2026-09-04T09:09:00+00:00"
-        }
-      ]
+      "news": []
     }
   ]
 }

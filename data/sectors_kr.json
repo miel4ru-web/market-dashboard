@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:32:08.504734+09:00",
+  "generated_at": "2026-09-07T09:39:03.697200+09:00",
   "weight_source": "equal_kr",
   "top_n": 3,
   "top_sectors": [
@@ -12,27 +12,27 @@
       "label": "IT",
       "ticker": "139260.KS",
       "weight_pct": 11.11,
-      "pct": 3.37,
-      "contribution": 0.3747,
+      "pct": 4.35,
+      "contribution": 0.4838,
       "rank": 1,
       "news": [
+        {
+          "title": "Apple (AAPL) Sets iPhone Launch Event. The First Under New CEO John Ternus",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/articles/apple-aapl-sets-iphone-launch-221225248.html",
+          "published_at": "2026-09-06T22:12:25+00:00"
+        },
+        {
+          "title": "NVIDIA (NVDA)’s $20 Billion Groq Bet Goes Live This Year With New AI Racks",
+          "publisher": "Insider Monkey",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-20-billion-groq-190737433.html",
+          "published_at": "2026-09-06T19:07:37+00:00"
+        },
         {
           "title": "South Korea exports surpass annual record as AI chip boom drives shipments",
           "publisher": "Investing.com",
           "url": "https://finance.yahoo.com/technology/ai/articles/south-korea-exports-surpass-annual-090758052.html",
           "published_at": "2026-09-05T09:07:58+00:00"
-        },
-        {
-          "title": "Apple Poised To Unveil Folding iPhone",
-          "publisher": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/apple-stock-folding-iphone-set-for-debut/?src=A00220&yptr=yahoo",
-          "published_at": "2026-09-04T20:05:50+00:00"
-        },
-        {
-          "title": "Lone Star JV Spends $1.2B On 2M SF R&D Portfolio In Silicon Valley",
-          "publisher": "Bisnow",
-          "url": "https://www.bisnow.com/news/san-francisco/industrial/lone-star-jv-acquires-2-2m-sf-of-r-d-space-in-silicon-valley",
-          "published_at": "2026-09-04T18:08:47+00:00"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "139270.KS",
       "weight_pct": 11.11,
-      "pct": -3.05,
-      "contribution": -0.3393,
+      "pct": 1.63,
+      "contribution": 0.1815,
       "rank": 3,
       "news": []
     },
@@ -49,8 +49,8 @@
       "label": "헬스케어",
       "ticker": "227540.KS",
       "weight_pct": 11.11,
-      "pct": 0.6,
-      "contribution": 0.0664,
+      "pct": -0.7,
+      "contribution": -0.0775,
       "rank": null,
       "news": []
     },
@@ -67,8 +67,8 @@
       "label": "생활소비재",
       "ticker": "227560.KS",
       "weight_pct": 11.11,
-      "pct": -1.3,
-      "contribution": -0.1443,
+      "pct": -0.93,
+      "contribution": -0.1032,
       "rank": null,
       "news": []
     },
@@ -76,8 +76,8 @@
       "label": "에너지화학",
       "ticker": "139250.KS",
       "weight_pct": 11.11,
-      "pct": 3.09,
-      "contribution": 0.3428,
+      "pct": 1.87,
+      "contribution": 0.2075,
       "rank": 2,
       "news": []
     },
@@ -85,8 +85,8 @@
       "label": "중공업",
       "ticker": "139230.KS",
       "weight_pct": 11.11,
-      "pct": 0.52,
-      "contribution": 0.0573,
+      "pct": 1.58,
+      "contribution": 0.1754,
       "rank": null,
       "news": []
     },
@@ -94,8 +94,8 @@
       "label": "철강소재",
       "ticker": "139240.KS",
       "weight_pct": 11.11,
-      "pct": 0.22,
-      "contribution": 0.0248,
+      "pct": -0.53,
+      "contribution": -0.0594,
       "rank": null,
       "news": []
     },
@@ -103,8 +103,8 @@
       "label": "건설",
       "ticker": "139220.KS",
       "weight_pct": 11.11,
-      "pct": 0.26,
-      "contribution": 0.0292,
+      "pct": 0.33,
+      "contribution": 0.0364,
       "rank": null,
       "news": []
     }
