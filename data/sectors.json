@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T09:39:02.189148+09:00",
+  "generated_at": "2026-09-08T09:53:10.035376+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -15,7 +15,20 @@
       "pct": 0.7,
       "contribution": 0.2726,
       "rank": 1,
-      "news": []
+      "news": [
+        {
+          "title": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/07/how-a-64-year-olds-1-2-million-in-voo-turned-into-a-456000-bet-on-a-single-sector/",
+          "published_at": "2026-09-07T21:25:21+00:00"
+        },
+        {
+          "title": "Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/07/investors-pulled-700-million-from-igv-hours-before-snowflake-reignited-software/",
+          "published_at": "2026-09-07T13:37:45+00:00"
+        }
+      ]
     },
     {
       "label": "금융",
@@ -42,7 +55,14 @@
       "pct": -1.33,
       "contribution": -0.1239,
       "rank": 2,
-      "news": []
+      "news": [
+        {
+          "title": "How Is O'Reilly Automotive's Stock Performance Compared to Other Consumer Cyclical Stocks?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4474443/how-is-o-reilly-automotive-s-stock-performance-compared-to-other-consumer-cyclical-stocks",
+          "published_at": "2026-09-07T13:02:34+00:00"
+        }
+      ]
     },
     {
       "label": "필수소비재",
@@ -105,7 +125,14 @@
       "pct": -1.19,
       "contribution": -0.1131,
       "rank": 3,
-      "news": []
+      "news": [
+        {
+          "title": "Which Telecom Stock Has Dominated in 2026: AT&T, Verizon, or T-Mobile? (It’s Not Even Close)",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/07/which-telecom-stock-has-dominated-in-2026-att-verizon-or-t-mobile-its-not-even-close/",
+          "published_at": "2026-09-07T15:40:15+00:00"
+        }
+      ]
     }
   ]
 }
