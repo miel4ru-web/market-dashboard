@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:53:10.035376+09:00",
+  "generated_at": "2026-09-09T10:00:37.548610+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -16,6 +16,12 @@
       "contribution": 0.2726,
       "rank": 1,
       "news": [
+        {
+          "title": "QQQ vs QQQM: Same Index, Same Stocks, Different Fee – and the Math Says One Leaves You Thousands Richer",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/08/qqq-vs-qqqm-same-index-same-stocks-different-fee-and-the-math-says-one-leaves-you-thousands-richer/",
+          "published_at": "2026-09-08T21:45:32+00:00"
+        },
         {
           "title": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
           "publisher": "24/7 Wall St.",
@@ -61,6 +67,18 @@
           "publisher": "Barchart",
           "url": "https://www.barchart.com/story/news/4474443/how-is-o-reilly-automotive-s-stock-performance-compared-to-other-consumer-cyclical-stocks",
           "published_at": "2026-09-07T13:02:34+00:00"
+        },
+        {
+          "title": "How Is AutoZone's Stock Performance Compared to Other Auto Parts Stocks",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4491647/how-is-autozone-s-stock-performance-compared-to-other-auto-parts-stocks",
+          "published_at": "2026-09-08T14:16:28+00:00"
+        },
+        {
+          "title": "D.R. Horton Stock: Is DHI Underperforming the Consumer Cyclical Sector?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4489364/d-r-horton-stock-is-dhi-underperforming-the-consumer-cyclical-sector",
+          "published_at": "2026-09-08T13:08:44+00:00"
         }
       ]
     },
