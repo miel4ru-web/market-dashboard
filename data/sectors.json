@@ -1,28 +1,47 @@
 {
-  "generated_at": "2026-09-11T09:48:17.095793+09:00",
+  "generated_at": "2026-09-12T09:51:58.061480+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
-    "임의소비재",
-    "산업재",
-    "커뮤니케이션서비스"
+    "기술",
+    "커뮤니케이션서비스",
+    "산업재"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 38.69,
-      "pct": 0.0,
-      "contribution": 0.0,
-      "rank": null,
-      "news": []
+      "pct": -1.41,
+      "contribution": -0.5458,
+      "rank": 1,
+      "news": [
+        {
+          "title": "Apple Advances 3% as First Foldable iPhone Arrives at Its Highest Price Ever; Skyworks Rallies 9%, Alphabet Ticks Up",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/11/apple-advances-3-as-first-foldable-iphone-arrives-at-its-highest-price-ever-skyworks-rallies-9-alphabet-ticks-up/",
+          "published_at": "2026-09-11T15:37:41+00:00"
+        },
+        {
+          "title": "Stock Market News for Sep 11, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html",
+          "published_at": "2026-09-11T13:25:00+00:00"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Gain Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-195856760.html",
+          "published_at": "2026-09-11T19:58:56+00:00"
+        }
+      ]
     },
     {
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.06,
-      "pct": -0.42,
-      "contribution": -0.0505,
+      "pct": -0.33,
+      "contribution": -0.0402,
       "rank": null,
       "news": []
     },
@@ -30,8 +49,8 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.28,
-      "pct": -0.33,
-      "contribution": -0.0305,
+      "pct": -0.55,
+      "contribution": -0.0513,
       "rank": null,
       "news": []
     },
@@ -39,36 +58,17 @@
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.31,
-      "pct": -1.34,
-      "contribution": -0.125,
-      "rank": 1,
-      "news": [
-        {
-          "title": "How Is Yum! Brands' Stock Performance Compared to Other Consumer Cyclical Stocks?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4539055/how-is-yum-brands-stock-performance-compared-to-other-consumer-cyclical-stocks",
-          "published_at": "2026-09-10T14:17:15+00:00"
-        },
-        {
-          "title": "Stock Market News for Sep 10, 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-10-132200642.html",
-          "published_at": "2026-09-10T13:22:00+00:00"
-        },
-        {
-          "title": "Signet Jewelers Surges 14% as Raised Profit Outlook Overrides Flat Sales Guidance, Tapestry Holds Steady",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/09/signet-jewelers-surges-14-as-raised-profit-outlook-overrides-flat-sales-guidance-tapestry-holds-steady/",
-          "published_at": "2026-09-09T13:32:13+00:00"
-        }
-      ]
+      "pct": -0.44,
+      "contribution": -0.0414,
+      "rank": null,
+      "news": []
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.46,
-      "pct": -1.15,
-      "contribution": -0.0515,
+      "pct": 0.05,
+      "contribution": 0.0021,
       "rank": null,
       "news": []
     },
@@ -76,8 +76,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.48,
-      "pct": 0.83,
-      "contribution": 0.029,
+      "pct": -0.58,
+      "contribution": -0.0202,
       "rank": null,
       "news": []
     },
@@ -85,21 +85,27 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 7.75,
-      "pct": -1.51,
-      "contribution": -0.1169,
-      "rank": 2,
+      "pct": -0.72,
+      "contribution": -0.0559,
+      "rank": 3,
       "news": [
         {
-          "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Producer Price Inflation Data Release",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131756365.html",
-          "published_at": "2026-09-10T13:17:56+00:00"
+          "title": "Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/",
+          "published_at": "2026-09-11T19:09:26+00:00"
         },
         {
-          "title": "Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel",
+          "title": "Ferguson Stock: Is FERG Underperforming the Industrial Sector?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4559662/ferguson-stock-is-ferg-underperforming-the-industrial-sector",
+          "published_at": "2026-09-11T14:49:18+00:00"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-130653743.html",
-          "published_at": "2026-09-09T13:06:53+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html",
+          "published_at": "2026-09-11T13:14:24+00:00"
         }
       ]
     },
@@ -107,8 +113,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 1.98,
-      "pct": -1.17,
-      "contribution": -0.0232,
+      "pct": -0.98,
+      "contribution": -0.0194,
       "rank": null,
       "news": []
     },
@@ -116,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.68,
-      "pct": -1.06,
-      "contribution": -0.0178,
+      "pct": -1.23,
+      "contribution": -0.0206,
       "rank": null,
       "news": []
     },
@@ -125,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.8,
-      "pct": -1.12,
-      "contribution": -0.0201,
+      "pct": -0.83,
+      "contribution": -0.0149,
       "rank": null,
       "news": []
     },
@@ -134,17 +140,10 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.5,
-      "pct": -0.62,
-      "contribution": -0.0588,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Comcast Sinks 8%, Charter Drops 6%, T-Mobile Slips 3%: Is a Broadband Repricing Underway?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/09/comcast-sinks-8-charter-drops-6-t-mobile-slips-is-a-broadband-repricing-under-way/",
-          "published_at": "2026-09-09T16:31:56+00:00"
-        }
-      ]
+      "pct": 0.6,
+      "contribution": 0.0574,
+      "rank": 2,
+      "news": []
     }
   ]
 }

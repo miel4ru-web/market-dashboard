@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-09-11T09:48:18.816292+09:00",
+  "generated_at": "2026-09-12T09:51:59.734032+09:00",
   "weight_source": "equal_kr",
   "top_n": 3,
   "top_sectors": [
+    "에너지화학",
     "IT",
-    "경기소비재",
-    "에너지화학"
+    "헬스케어"
   ],
   "sectors": [
     {
       "label": "IT",
       "ticker": "139260.KS",
       "weight_pct": 11.11,
-      "pct": -2.45,
-      "contribution": -0.2722,
-      "rank": 1,
+      "pct": -2.53,
+      "contribution": -0.2812,
+      "rank": 2,
       "news": [
         {
-          "title": "Apple catches up in foldables. Wall Street likes it",
-          "publisher": "Proactive",
-          "url": "https://www.proactiveinvestors.com/companies/news/1098383/apple-catches-up-in-foldables-wall-street-likes-it-1098383.html",
-          "published_at": "2026-09-10T18:00:00+00:00"
+          "title": "Apple’s New Foldable Phone Poised for Strong Sales",
+          "publisher": "Kiplinger",
+          "url": "https://www.kiplinger.com/business/apple-new-iphone-duo-foldable-is-poised-for-strong-sales",
+          "published_at": "2026-09-11T21:15:00+00:00"
         },
         {
-          "title": "AAPL’s Foldable iPhone Has Wall Street Split — Retail Calls Duo Reveal A ‘Modern Day Steve Jobs Moment’",
-          "publisher": "Stocktwits",
-          "url": "https://stocktwits.com/news-articles/markets/equity/aapl-foldable-iphone-has-wall-street-split-retail-calls-duo-reveal-a-modern-day-steve-jobs-moment/cZta1xdRJ6W",
-          "published_at": "2026-09-10T17:34:56+00:00"
+          "title": "Samsung Drops 3.5% While OpenAI Chip Work Still Lacks a Contract",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/ai/articles/samsung-drops-3-5-while-200210926.html",
+          "published_at": "2026-09-11T20:02:10+00:00"
         },
         {
-          "title": "Qualcomm Stock Looks Cheap, But Is The Discount Deserved?",
-          "publisher": "Trefis",
-          "url": "https://www.trefis.com/articles/614901/qualcomm-stock-looks-cheap-but-is-the-discount-deserved/2026-09-10",
-          "published_at": "2026-09-10T19:57:33+00:00"
+          "title": "Qualcomm Chip Deal With Samsung Hits a Major Pricing Snag",
+          "publisher": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/technology/articles/qualcomm-chip-deal-samsung-hits-120833823.html",
+          "published_at": "2026-09-11T12:08:33+00:00"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "139270.KS",
       "weight_pct": 11.11,
-      "pct": 0.47,
-      "contribution": 0.0518,
+      "pct": 1.6,
+      "contribution": 0.178,
       "rank": null,
       "news": []
     },
@@ -49,39 +49,26 @@
       "label": "헬스케어",
       "ticker": "227540.KS",
       "weight_pct": 11.11,
-      "pct": -1.66,
-      "contribution": -0.1842,
-      "rank": null,
+      "pct": -2.26,
+      "contribution": -0.2515,
+      "rank": 3,
       "news": []
     },
     {
       "label": "경기소비재",
       "ticker": "139290.KS",
       "weight_pct": 11.11,
-      "pct": -2.0,
-      "contribution": -0.2224,
-      "rank": 2,
-      "news": [
-        {
-          "title": "Why Hyundai is raising its local sourcing goal in North America",
-          "publisher": "Supply Chain Dive",
-          "url": "https://www.supplychaindive.com/news/why-hyundai-is-raising-its-local-sourcing-goal-in-north-america/829845/",
-          "published_at": "2026-09-10T11:07:50+00:00"
-        },
-        {
-          "title": "KOSPI Struggles to Hold 7,000 as Bank of Korea  Flags Record Volatility",
-          "publisher": "BeInCrypto",
-          "url": "https://beincrypto.com/kospi-volatility-swings-above-7000/",
-          "published_at": "2026-09-10T05:52:02+00:00"
-        }
-      ]
+      "pct": -0.42,
+      "contribution": -0.0472,
+      "rank": null,
+      "news": []
     },
     {
       "label": "생활소비재",
       "ticker": "227560.KS",
       "weight_pct": 11.11,
-      "pct": 0.6,
-      "contribution": 0.0667,
+      "pct": 1.12,
+      "contribution": 0.1245,
       "rank": null,
       "news": []
     },
@@ -89,17 +76,17 @@
       "label": "에너지화학",
       "ticker": "139250.KS",
       "weight_pct": 11.11,
-      "pct": -1.93,
-      "contribution": -0.2149,
-      "rank": 3,
+      "pct": -3.36,
+      "contribution": -0.3738,
+      "rank": 1,
       "news": []
     },
     {
       "label": "중공업",
       "ticker": "139230.KS",
       "weight_pct": 11.11,
-      "pct": 0.0,
-      "contribution": 0.0,
+      "pct": 0.86,
+      "contribution": 0.0952,
       "rank": null,
       "news": []
     },
@@ -107,8 +94,8 @@
       "label": "철강소재",
       "ticker": "139240.KS",
       "weight_pct": 11.11,
-      "pct": -1.75,
-      "contribution": -0.1949,
+      "pct": -1.93,
+      "contribution": -0.2144,
       "rank": null,
       "news": []
     },
@@ -116,8 +103,8 @@
       "label": "건설",
       "ticker": "139220.KS",
       "weight_pct": 11.11,
-      "pct": -0.48,
-      "contribution": -0.0532,
+      "pct": 0.36,
+      "contribution": 0.0399,
       "rank": null,
       "news": []
     }
