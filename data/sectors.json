@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-12T09:51:58.061480+09:00",
+  "generated_at": "2026-09-13T09:34:59.433919+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
     "기술",
     "커뮤니케이션서비스",
-    "산업재"
+    "임의소비재"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 38.69,
-      "pct": -1.41,
-      "contribution": -0.5458,
+      "pct": 1.32,
+      "contribution": 0.5118,
       "rank": 1,
       "news": [
         {
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.06,
-      "pct": -0.33,
-      "contribution": -0.0402,
+      "pct": 0.67,
+      "contribution": 0.0806,
       "rank": null,
       "news": []
     },
@@ -49,8 +49,8 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.28,
-      "pct": -0.55,
-      "contribution": -0.0513,
+      "pct": -0.18,
+      "contribution": -0.0168,
       "rank": null,
       "news": []
     },
@@ -58,17 +58,36 @@
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.31,
-      "pct": -0.44,
-      "contribution": -0.0414,
-      "rank": null,
-      "news": []
+      "pct": 0.89,
+      "contribution": 0.0832,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Nike Is Now Down 40% This Year. Is NKE Stock Dead Money or Due for a Bounce?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/11/nike-is-now-down-40-this-year-is-nke-stock-dead-money-or-due-for-a-bounce/",
+          "published_at": "2026-09-11T18:58:07+00:00"
+        },
+        {
+          "title": "Tesla’s Drag on XLY Was Softened by Amazon’s Gain; QQQ Felt Almost Nothing",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/11/teslas-drag-on-xly-was-softened-by-amazons-gain-qqq-felt-almost-nothing/",
+          "published_at": "2026-09-11T12:05:37+00:00"
+        },
+        {
+          "title": "Sector Update: Consumer Stocks Rise Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-195414948.html",
+          "published_at": "2026-09-11T19:54:14+00:00"
+        }
+      ]
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.46,
-      "pct": 0.05,
-      "contribution": 0.0021,
+      "pct": 0.35,
+      "contribution": 0.0156,
       "rank": null,
       "news": []
     },
@@ -76,8 +95,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.48,
-      "pct": -0.58,
-      "contribution": -0.0202,
+      "pct": 0.32,
+      "contribution": 0.0113,
       "rank": null,
       "news": []
     },
@@ -85,36 +104,17 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 7.75,
-      "pct": -0.72,
-      "contribution": -0.0559,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Deere and Caterpillar Are Both Up Over 40% This Year: Take Profits or Hold On for the Ride?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/11/deere-and-caterpillar-are-both-up-over-40-this-year-take-profits-or-hold-on-for-the-ride/",
-          "published_at": "2026-09-11T19:09:26+00:00"
-        },
-        {
-          "title": "Ferguson Stock: Is FERG Underperforming the Industrial Sector?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4559662/ferguson-stock-is-ferg-underperforming-the-industrial-sector",
-          "published_at": "2026-09-11T14:49:18+00:00"
-        },
-        {
-          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Inflation Data Release",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424619.html",
-          "published_at": "2026-09-11T13:14:24+00:00"
-        }
-      ]
+      "pct": 1.07,
+      "contribution": 0.0827,
+      "rank": null,
+      "news": []
     },
     {
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 1.98,
-      "pct": -0.98,
-      "contribution": -0.0194,
+      "pct": -0.31,
+      "contribution": -0.0061,
       "rank": null,
       "news": []
     },
@@ -122,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.68,
-      "pct": -1.23,
-      "contribution": -0.0206,
+      "pct": 0.37,
+      "contribution": 0.0063,
       "rank": null,
       "news": []
     },
@@ -131,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.8,
-      "pct": -0.83,
-      "contribution": -0.0149,
+      "pct": 0.86,
+      "contribution": 0.0155,
       "rank": null,
       "news": []
     },
@@ -140,8 +140,8 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.5,
-      "pct": 0.6,
-      "contribution": 0.0574,
+      "pct": 0.99,
+      "contribution": 0.0937,
       "rank": 2,
       "news": []
     }

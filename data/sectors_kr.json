@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:51:59.734032+09:00",
+  "generated_at": "2026-09-13T09:35:01.467178+09:00",
   "weight_source": "equal_kr",
   "top_n": 3,
   "top_sectors": [
@@ -17,12 +17,6 @@
       "rank": 2,
       "news": [
         {
-          "title": "Apple’s New Foldable Phone Poised for Strong Sales",
-          "publisher": "Kiplinger",
-          "url": "https://www.kiplinger.com/business/apple-new-iphone-duo-foldable-is-poised-for-strong-sales",
-          "published_at": "2026-09-11T21:15:00+00:00"
-        },
-        {
           "title": "Samsung Drops 3.5% While OpenAI Chip Work Still Lacks a Contract",
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/technology/ai/articles/samsung-drops-3-5-while-200210926.html",
@@ -33,6 +27,12 @@
           "publisher": "GuruFocus.com",
           "url": "https://finance.yahoo.com/technology/articles/qualcomm-chip-deal-samsung-hits-120833823.html",
           "published_at": "2026-09-11T12:08:33+00:00"
+        },
+        {
+          "title": "Broadcom vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?",
+          "publisher": "Motley Fool",
+          "url": "https://www.fool.com/coverage/better-buy/2026/09/12/broadcom-vs-micron-technology-which-technology-stock-is-a-better-buy-in-2026/",
+          "published_at": "2026-09-12T18:08:22+00:00"
         }
       ]
     },
