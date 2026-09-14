@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-09-13T09:35:01.467178+09:00",
+  "generated_at": "2026-09-14T09:39:49.834950+09:00",
   "weight_source": "equal_kr",
   "top_n": 3,
   "top_sectors": [
-    "에너지화학",
     "IT",
-    "헬스케어"
+    "건설",
+    "경기소비재"
   ],
   "sectors": [
     {
       "label": "IT",
       "ticker": "139260.KS",
       "weight_pct": 11.11,
-      "pct": -2.53,
-      "contribution": -0.2812,
-      "rank": 2,
+      "pct": -5.06,
+      "contribution": -0.5626,
+      "rank": 1,
       "news": [
         {
-          "title": "Samsung Drops 3.5% While OpenAI Chip Work Still Lacks a Contract",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/ai/articles/samsung-drops-3-5-while-200210926.html",
-          "published_at": "2026-09-11T20:02:10+00:00"
+          "title": "Can New iPhone Duo Power Apple's Stock Higher?",
+          "publisher": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/09/13/can-new-iphone-duo-power-apples-stock-higher/",
+          "published_at": "2026-09-13T14:13:00+00:00"
         },
         {
-          "title": "Qualcomm Chip Deal With Samsung Hits a Major Pricing Snag",
-          "publisher": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/technology/articles/qualcomm-chip-deal-samsung-hits-120833823.html",
-          "published_at": "2026-09-11T12:08:33+00:00"
+          "title": "South Korea expands espionage law to protect chip technology",
+          "publisher": "Investing.com",
+          "url": "https://www.yahoo.com/news/world/articles/south-korea-expands-espionage-law-060257291.html",
+          "published_at": "2026-09-13T06:02:57+00:00"
         },
         {
           "title": "Broadcom vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?",
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "139270.KS",
       "weight_pct": 11.11,
-      "pct": 1.6,
-      "contribution": 0.178,
+      "pct": -0.26,
+      "contribution": -0.0287,
       "rank": null,
       "news": []
     },
@@ -49,26 +49,26 @@
       "label": "헬스케어",
       "ticker": "227540.KS",
       "weight_pct": 11.11,
-      "pct": -2.26,
-      "contribution": -0.2515,
-      "rank": 3,
+      "pct": -1.75,
+      "contribution": -0.1945,
+      "rank": null,
       "news": []
     },
     {
       "label": "경기소비재",
       "ticker": "139290.KS",
       "weight_pct": 11.11,
-      "pct": -0.42,
-      "contribution": -0.0472,
-      "rank": null,
+      "pct": -2.6,
+      "contribution": -0.2888,
+      "rank": 3,
       "news": []
     },
     {
       "label": "생활소비재",
       "ticker": "227560.KS",
       "weight_pct": 11.11,
-      "pct": 1.12,
-      "contribution": 0.1245,
+      "pct": -0.4,
+      "contribution": -0.044,
       "rank": null,
       "news": []
     },
@@ -76,17 +76,17 @@
       "label": "에너지화학",
       "ticker": "139250.KS",
       "weight_pct": 11.11,
-      "pct": -3.36,
-      "contribution": -0.3738,
-      "rank": 1,
+      "pct": -1.32,
+      "contribution": -0.1462,
+      "rank": null,
       "news": []
     },
     {
       "label": "중공업",
       "ticker": "139230.KS",
       "weight_pct": 11.11,
-      "pct": 0.86,
-      "contribution": 0.0952,
+      "pct": -1.96,
+      "contribution": -0.2175,
       "rank": null,
       "news": []
     },
@@ -94,8 +94,8 @@
       "label": "철강소재",
       "ticker": "139240.KS",
       "weight_pct": 11.11,
-      "pct": -1.93,
-      "contribution": -0.2144,
+      "pct": -0.27,
+      "contribution": -0.0298,
       "rank": null,
       "news": []
     },
@@ -103,9 +103,9 @@
       "label": "건설",
       "ticker": "139220.KS",
       "weight_pct": 11.11,
-      "pct": 0.36,
-      "contribution": 0.0399,
-      "rank": null,
+      "pct": -3.16,
+      "contribution": -0.3514,
+      "rank": 2,
       "news": []
     }
   ]

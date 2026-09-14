@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T09:34:59.433919+09:00",
+  "generated_at": "2026-09-14T09:39:48.362745+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -17,22 +17,10 @@
       "rank": 1,
       "news": [
         {
-          "title": "Apple Advances 3% as First Foldable iPhone Arrives at Its Highest Price Ever; Skyworks Rallies 9%, Alphabet Ticks Up",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/11/apple-advances-3-as-first-foldable-iphone-arrives-at-its-highest-price-ever-skyworks-rallies-9-alphabet-ticks-up/",
-          "published_at": "2026-09-11T15:37:41+00:00"
-        },
-        {
-          "title": "Stock Market News for Sep 11, 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-11-132500350.html",
-          "published_at": "2026-09-11T13:25:00+00:00"
-        },
-        {
-          "title": "Sector Update: Tech Stocks Gain Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-afternoon-195856760.html",
-          "published_at": "2026-09-11T19:58:56+00:00"
+          "title": "Better Artificial Intelligence ETF: Roundhill's CHAT vs. State Street's XLK",
+          "publisher": "Motley Fool",
+          "url": "https://www.fool.com/coverage/etfs/2026/09/13/better-artificial-intelligence-etf-roundhill-s-chat-vs-state-street-s-xlk/",
+          "published_at": "2026-09-13T06:37:28+00:00"
         }
       ]
     },
@@ -63,22 +51,10 @@
       "rank": 3,
       "news": [
         {
-          "title": "Nike Is Now Down 40% This Year. Is NKE Stock Dead Money or Due for a Bounce?",
+          "title": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
           "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/11/nike-is-now-down-40-this-year-is-nke-stock-dead-money-or-due-for-a-bounce/",
-          "published_at": "2026-09-11T18:58:07+00:00"
-        },
-        {
-          "title": "Tesla’s Drag on XLY Was Softened by Amazon’s Gain; QQQ Felt Almost Nothing",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/09/11/teslas-drag-on-xly-was-softened-by-amazons-gain-qqq-felt-almost-nothing/",
-          "published_at": "2026-09-11T12:05:37+00:00"
-        },
-        {
-          "title": "Sector Update: Consumer Stocks Rise Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-195414948.html",
-          "published_at": "2026-09-11T19:54:14+00:00"
+          "url": "https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/",
+          "published_at": "2026-09-13T20:00:18+00:00"
         }
       ]
     },
