@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:39:48.362745+09:00",
+  "generated_at": "2026-09-15T10:08:39.878392+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
@@ -17,10 +17,22 @@
       "rank": 1,
       "news": [
         {
+          "title": "Stock Market News for Sep 14, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-14-132800512.html",
+          "published_at": "2026-09-14T13:28:00+00:00"
+        },
+        {
           "title": "Better Artificial Intelligence ETF: Roundhill's CHAT vs. State Street's XLK",
           "publisher": "Motley Fool",
           "url": "https://www.fool.com/coverage/etfs/2026/09/13/better-artificial-intelligence-etf-roundhill-s-chat-vs-state-street-s-xlk/",
           "published_at": "2026-09-13T06:37:28+00:00"
+        },
+        {
+          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/technology/articles/sector-tech-stocks-fall-afternoon-200007387.html",
+          "published_at": "2026-09-14T20:00:07+00:00"
         }
       ]
     },
@@ -51,10 +63,22 @@
       "rank": 3,
       "news": [
         {
+          "title": "Stock Market News for Sep 14, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-14-132800512.html",
+          "published_at": "2026-09-14T13:28:00+00:00"
+        },
+        {
           "title": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
           "publisher": "24/7 Wall St.",
           "url": "https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/",
           "published_at": "2026-09-13T20:00:18+00:00"
+        },
+        {
+          "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html",
+          "published_at": "2026-09-14T19:50:35+00:00"
         }
       ]
     },
@@ -119,7 +143,20 @@
       "pct": 0.99,
       "contribution": 0.0937,
       "rank": 2,
-      "news": []
+      "news": [
+        {
+          "title": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/14/netflix-climbs-4-alphabet-ticks-up-amazon-barely-budges-as-new-streaming-policy-alliance-launches/",
+          "published_at": "2026-09-14T17:45:52+00:00"
+        },
+        {
+          "title": "Stock Market News for Sep 14, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-14-132800512.html",
+          "published_at": "2026-09-14T13:28:00+00:00"
+        }
+      ]
     }
   ]
 }
