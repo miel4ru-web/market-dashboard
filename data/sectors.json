@@ -1,21 +1,27 @@
 {
-  "generated_at": "2026-09-16T10:01:36.468383+09:00",
+  "generated_at": "2026-09-17T10:03:44.987295+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
+    "임의소비재",
     "기술",
-    "커뮤니케이션서비스",
-    "헬스케어"
+    "커뮤니케이션서비스"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 38.69,
-      "pct": -1.81,
-      "contribution": -0.699,
-      "rank": 1,
+      "pct": -0.29,
+      "contribution": -0.1134,
+      "rank": 2,
       "news": [
+        {
+          "title": "How Is Hewlett Packard Enterprise's Stock Performance Compared to Technology Stocks",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4637120/how-is-hewlett-packard-enterprise-s-stock-performance-compared-to-technology-stocks",
+          "published_at": "2026-09-16T14:53:37+00:00"
+        },
         {
           "title": "Stock Market News for Sep 15, 2026",
           "publisher": "Zacks",
@@ -23,16 +29,10 @@
           "published_at": "2026-09-15T13:14:00+00:00"
         },
         {
-          "title": "Stock Market News for Sep 14, 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-14-132800512.html",
-          "published_at": "2026-09-14T13:28:00+00:00"
-        },
-        {
-          "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Fed's Rate Announcement",
           "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-mixed-afternoon-195317789.html",
-          "published_at": "2026-09-15T19:53:17+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131952643.html",
+          "published_at": "2026-09-16T13:19:52+00:00"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.06,
-      "pct": -0.38,
-      "contribution": -0.0463,
+      "pct": -0.32,
+      "contribution": -0.0381,
       "rank": null,
       "news": []
     },
@@ -49,45 +49,45 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.28,
-      "pct": 1.45,
-      "contribution": 0.1341,
-      "rank": 3,
-      "news": [
-        {
-          "title": "The Stock Market Could Be in for an Autumn Fall. Why Wall Street is Getting Nervous.",
-          "publisher": "Barrons.com",
-          "url": "https://www.barrons.com/articles/the-stock-market-could-be-in-for-an-autumn-fall-why-wall-street-is-getting-nervous-de3501c3?siteid=yhoof2&yptr=yahoo",
-          "published_at": "2026-09-15T15:19:00+00:00"
-        },
-        {
-          "title": "Sector Update: Healthcare Stocks Lower Tuesday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-lower-tuesday-174454933.html",
-          "published_at": "2026-09-15T17:44:54+00:00"
-        },
-        {
-          "title": "Sector Update: Healthcare Stocks Rise in Afternoon Trading",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-174953468.html",
-          "published_at": "2026-09-14T17:49:53+00:00"
-        }
-      ]
+      "pct": -0.05,
+      "contribution": -0.005,
+      "rank": null,
+      "news": []
     },
     {
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.31,
-      "pct": -0.1,
-      "contribution": -0.0091,
-      "rank": null,
-      "news": []
+      "pct": -1.75,
+      "contribution": -0.1625,
+      "rank": 1,
+      "news": [
+        {
+          "title": "NVR Stock: Is NVR Underperforming the Consumer Cyclical Sector?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4635306/nvr-stock-is-nvr-underperforming-the-consumer-cyclical-sector",
+          "published_at": "2026-09-16T13:39:02+00:00"
+        },
+        {
+          "title": "Stock Market News for Sep 16, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-16-131000619.html",
+          "published_at": "2026-09-16T13:10:00+00:00"
+        },
+        {
+          "title": "Fed Set to Hike Rate: Are Consumer Discretionary ETFs in the Line of Fire?",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/economy/policy/articles/fed-set-hike-rate-consumer-141800725.html",
+          "published_at": "2026-09-15T14:18:00+00:00"
+        }
+      ]
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.46,
-      "pct": 1.25,
-      "contribution": 0.0556,
+      "pct": -0.82,
+      "contribution": -0.0365,
       "rank": null,
       "news": []
     },
@@ -95,8 +95,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.48,
-      "pct": -0.94,
-      "contribution": -0.0326,
+      "pct": 2.17,
+      "contribution": 0.0755,
       "rank": null,
       "news": []
     },
@@ -104,8 +104,8 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 7.75,
-      "pct": -1.42,
-      "contribution": -0.1097,
+      "pct": -0.64,
+      "contribution": -0.0493,
       "rank": null,
       "news": []
     },
@@ -113,8 +113,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 1.98,
-      "pct": -1.34,
-      "contribution": -0.0266,
+      "pct": -1.2,
+      "contribution": -0.0237,
       "rank": null,
       "news": []
     },
@@ -122,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.68,
-      "pct": -0.9,
-      "contribution": -0.0152,
+      "pct": 0.48,
+      "contribution": 0.008,
       "rank": null,
       "news": []
     },
@@ -131,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.8,
-      "pct": -0.69,
-      "contribution": -0.0124,
+      "pct": -0.12,
+      "contribution": -0.0021,
       "rank": null,
       "news": []
     },
@@ -140,27 +140,15 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.5,
-      "pct": 2.19,
-      "contribution": 0.2084,
-      "rank": 2,
+      "pct": -0.9,
+      "contribution": -0.0859,
+      "rank": 3,
       "news": [
         {
           "title": "Sirius XM Stock Is Up 53% in 2026: Take Profits, or Buy More?",
           "publisher": "24/7 Wall St.",
           "url": "https://247wallst.com/investing/2026/09/15/sirius-xm-stock-is-up-53-in-2026-take-profits-or-buy-more/",
           "published_at": "2026-09-15T18:56:30+00:00"
-        },
-        {
-          "title": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/14/netflix-climbs-4-alphabet-ticks-up-amazon-barely-budges-as-new-streaming-policy-alliance-launches/",
-          "published_at": "2026-09-14T17:45:52+00:00"
-        },
-        {
-          "title": "Stock Market News for Sep 14, 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-14-132800512.html",
-          "published_at": "2026-09-14T13:28:00+00:00"
         }
       ]
     }
