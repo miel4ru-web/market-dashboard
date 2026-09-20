@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-19T09:55:49.586144+09:00",
+  "generated_at": "2026-09-20T09:36:41.693707+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
     "기술",
-    "임의소비재",
-    "헬스케어"
+    "커뮤니케이션서비스",
+    "필수소비재"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 38.69,
-      "pct": 2.25,
-      "contribution": 0.8688,
+      "pct": 0.82,
+      "contribution": 0.3169,
       "rank": 1,
       "news": [
         {
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.06,
-      "pct": -0.09,
-      "contribution": -0.0108,
+      "pct": -0.04,
+      "contribution": -0.0043,
       "rank": null,
       "news": []
     },
@@ -49,73 +49,54 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.28,
-      "pct": 0.62,
-      "contribution": 0.0575,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Sector Update: Healthcare Stocks Softer Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-195502310.html",
-          "published_at": "2026-09-18T19:55:02+00:00"
-        },
-        {
-          "title": "Sector Update: Healthcare Stocks Decline Friday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-friday-173838911.html",
-          "published_at": "2026-09-18T17:38:38+00:00"
-        },
-        {
-          "title": "Sector Update: Healthcare Stocks Higher Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-higher-afternoon-194453063.html",
-          "published_at": "2026-09-17T19:44:53+00:00"
-        }
-      ]
+      "pct": -0.25,
+      "contribution": -0.0231,
+      "rank": null,
+      "news": []
     },
     {
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.31,
-      "pct": 1.1,
-      "contribution": 0.1023,
-      "rank": 2,
-      "news": [
-        {
-          "title": "Automaker Stocks Reverse as Rotation Trade Unwinds: General Motors and Stellantis Fall 4%, Ford Pulls Back",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/18/automaker-stocks-reverse-as-rotation-trade-unwinds-general-motors-and-stellantis-fall-4-ford-pulls-back/",
-          "published_at": "2026-09-18T14:51:21+00:00"
-        },
-        {
-          "title": "Automaker Stocks Rally as Rotation Lifts Cyclicals: General Motors Climbs 4%, Stellantis Rises 4%, Ford Gains 3%, Tesla Adds 2%",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/17/automaker-stocks-rally-as-rotation-lifts-cyclicals-general-motors-climbs-4-stellantis-rises-4-ford-gains-3-tesla-adds-2/",
-          "published_at": "2026-09-17T17:01:18+00:00"
-        },
-        {
-          "title": "Stock Market News for Sep 18, 2026",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-18-133000178.html",
-          "published_at": "2026-09-18T13:30:00+00:00"
-        }
-      ]
+      "pct": -0.32,
+      "contribution": -0.0301,
+      "rank": null,
+      "news": []
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.46,
-      "pct": 0.19,
-      "contribution": 0.0086,
-      "rank": null,
-      "news": []
+      "pct": -0.83,
+      "contribution": -0.0369,
+      "rank": 3,
+      "news": [
+        {
+          "title": "PepsiCo Falls 3% While Consumer Staples Hold Firm; Keurig Dr. Pepper Eases, Coca-Cola Barely Budges",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/18/pepsico-falls-3-while-consumer-staples-hold-firm-keurig-dr-pepper-eases-coca-cola-barely-budges/",
+          "published_at": "2026-09-18T17:07:26+00:00"
+        },
+        {
+          "title": "Stocks Are Resilient, Fairly Priced, and Probably Getting Ready to Rally",
+          "publisher": "Barrons.com",
+          "url": "https://www.barrons.com/articles/stocks-resilient-fairly-priced-rally-f595305d?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-09-18T17:05:00+00:00"
+        },
+        {
+          "title": "Sector Update: Consumer Stocks Softer Late Afternoon",
+          "publisher": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-softer-afternoon-195143538.html",
+          "published_at": "2026-09-18T19:51:43+00:00"
+        }
+      ]
     },
     {
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.48,
-      "pct": 0.7,
-      "contribution": 0.0245,
+      "pct": -0.26,
+      "contribution": -0.0092,
       "rank": null,
       "news": []
     },
@@ -123,8 +104,8 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 7.75,
-      "pct": 0.18,
-      "contribution": 0.0138,
+      "pct": 0.44,
+      "contribution": 0.0339,
       "rank": null,
       "news": []
     },
@@ -132,8 +113,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 1.98,
-      "pct": 0.9,
-      "contribution": 0.0177,
+      "pct": -1.42,
+      "contribution": -0.028,
       "rank": null,
       "news": []
     },
@@ -141,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.68,
-      "pct": 0.69,
-      "contribution": 0.0117,
+      "pct": -1.42,
+      "contribution": -0.0239,
       "rank": null,
       "news": []
     },
@@ -150,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.8,
-      "pct": 0.3,
-      "contribution": 0.0055,
+      "pct": -0.95,
+      "contribution": -0.0172,
       "rank": null,
       "news": []
     },
@@ -159,10 +140,17 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.5,
-      "pct": -0.58,
-      "contribution": -0.0547,
-      "rank": null,
-      "news": []
+      "pct": -1.37,
+      "contribution": -0.1302,
+      "rank": 2,
+      "news": [
+        {
+          "title": "Netflix Falls 4% as Wells Fargo Cuts Rating to Underweight With $57 Target; Disney Barely Budges",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/18/netflix-falls-4-as-wells-fargo-cuts-rating-to-underweight-with-57-target-disney-barely-budges/",
+          "published_at": "2026-09-18T13:06:06+00:00"
+        }
+      ]
     }
   ]
 }
