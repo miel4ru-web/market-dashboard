@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-09-22T10:24:22.261029+09:00",
+  "generated_at": "2026-09-23T10:12:28.213929+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
     "기술",
     "커뮤니케이션서비스",
-    "필수소비재"
+    "임의소비재"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 38.69,
-      "pct": 0.82,
-      "contribution": 0.3169,
+      "pct": 2.77,
+      "contribution": 1.0714,
       "rank": 1,
       "news": [
         {
-          "title": "Meta Spikes 7% as Wells Fargo Lifts Price Target to $796 Ahead of Connect; Alphabet Nudges Higher, Microsoft Holds Flat",
+          "title": "VGT Holders Bought ‘Tech’ and Own No Google, Meta, or Amazon: The Sector Rule That Decides What’s Inside",
           "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/21/meta-spikes-7-as-wells-fargo-lifts-price-target-to-796-ahead-of-connect-alphabet-nudges-higher-microsoft-holds-flat/",
-          "published_at": "2026-09-21T14:24:20+00:00"
+          "url": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/",
+          "published_at": "2026-09-22T22:15:04+00:00"
         },
         {
-          "title": "How Is Lumentum's Stock Performance Compared to Other Technology Stocks?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4712034/how-is-lumentum-s-stock-performance-compared-to-other-technology-stocks",
-          "published_at": "2026-09-21T13:41:03+00:00"
+          "title": "Cisco Sinks 6% While the Tech Sector Rises; Arista and Ciena Hold Flat",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/22/cisco-sinks-6-while-the-tech-sector-rises-arista-and-ciena-hold-flat/",
+          "published_at": "2026-09-22T17:06:44+00:00"
         },
         {
-          "title": "Stock Market News for Sep 21, 2026",
+          "title": "Stock Market News for Sep 22, 2026",
           "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-21-131500959.html",
-          "published_at": "2026-09-21T13:15:00+00:00"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-22-133900165.html",
+          "published_at": "2026-09-22T13:39:00+00:00"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.06,
-      "pct": -0.04,
-      "contribution": -0.0043,
+      "pct": 0.07,
+      "contribution": 0.0086,
       "rank": null,
       "news": []
     },
@@ -49,8 +49,8 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.28,
-      "pct": -0.25,
-      "contribution": -0.0231,
+      "pct": 0.37,
+      "contribution": 0.0342,
       "rank": null,
       "news": []
     },
@@ -58,45 +58,45 @@
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.31,
-      "pct": -0.32,
-      "contribution": -0.0301,
-      "rank": null,
-      "news": []
+      "pct": 1.08,
+      "contribution": 0.1006,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Expedia Group Stock: Is EXPE Outperforming the Consumer Cyclical Sector?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4726362/expedia-group-stock-is-expe-outperforming-the-consumer-cyclical-sector",
+          "published_at": "2026-09-22T09:20:50+00:00"
+        },
+        {
+          "title": "Darden Restaurants Stock: Is DRI Outperforming the Consumer Discretionary Sector?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4722142/darden-restaurants-stock-is-dri-outperforming-the-consumer-discretionary-sector",
+          "published_at": "2026-09-22T02:22:08+00:00"
+        },
+        {
+          "title": "These 4 Retail Stocks Are Winning the Race for Inflation-Weary Bargain Hunters",
+          "publisher": "Barrons.com",
+          "url": "https://www.barrons.com/articles/walmart-costco-dollar-general-five-below-stocks-inflation-b2b73132?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-09-22T19:49:00+00:00"
+        }
+      ]
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.46,
-      "pct": -0.83,
-      "contribution": -0.0369,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Hormel Foods Stock: Is HRL Underperforming the Consumer Defensive Sector?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4717112/hormel-foods-stock-is-hrl-underperforming-the-consumer-defensive-sector",
-          "published_at": "2026-09-21T18:48:03+00:00"
-        },
-        {
-          "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195332442.html",
-          "published_at": "2026-09-21T19:53:32+00:00"
-        },
-        {
-          "title": "Sector Update: Consumer Stocks Mixed Monday Afternoon",
-          "publisher": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-monday-174239686.html",
-          "published_at": "2026-09-21T17:42:39+00:00"
-        }
-      ]
+      "pct": -1.06,
+      "contribution": -0.0474,
+      "rank": null,
+      "news": []
     },
     {
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.48,
-      "pct": -0.26,
-      "contribution": -0.0092,
+      "pct": -2.88,
+      "contribution": -0.1001,
       "rank": null,
       "news": []
     },
@@ -104,8 +104,8 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 7.75,
-      "pct": 0.44,
-      "contribution": 0.0339,
+      "pct": 0.14,
+      "contribution": 0.0105,
       "rank": null,
       "news": []
     },
@@ -113,8 +113,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 1.98,
-      "pct": -1.42,
-      "contribution": -0.028,
+      "pct": -1.07,
+      "contribution": -0.0212,
       "rank": null,
       "news": []
     },
@@ -122,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.68,
-      "pct": -1.42,
-      "contribution": -0.0239,
+      "pct": -0.56,
+      "contribution": -0.0094,
       "rank": null,
       "news": []
     },
@@ -131,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.8,
-      "pct": -0.95,
-      "contribution": -0.0172,
+      "pct": 0.14,
+      "contribution": 0.0025,
       "rank": null,
       "news": []
     },
@@ -140,15 +140,27 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.5,
-      "pct": -1.37,
-      "contribution": -0.1302,
+      "pct": 3.56,
+      "contribution": 0.3378,
       "rank": 2,
       "news": [
+        {
+          "title": "Paramount Skydance Rises 4% on 12-State Settlement, Warner Bros. Discovery Holds Flat as $110B Deal Nears Its Close",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/22/paramount-skydance-rises-4-on-12-state-settlement-warner-bros-discovery-holds-flat-as-110b-deal-nears-its-close/",
+          "published_at": "2026-09-22T15:00:17+00:00"
+        },
         {
           "title": "Warner Bros. Discovery Jumps 7%, Paramount Skydance Climbs 5% as Antitrust Settlement Talks Advance; Netflix Sits Out the Rally",
           "publisher": "24/7 Wall St.",
           "url": "https://247wallst.com/investing/2026/09/21/warner-bros-discovery-jumps-7-paramount-skydance-climbs-5-as-antitrust-settlement-talks-advance-netflix-sits-out-the-rally/",
           "published_at": "2026-09-21T13:42:36+00:00"
+        },
+        {
+          "title": "Pinterest Sinks 5% as Month-Long Slide Deepens; Reddit Slips, Snap Stays Put",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/22/pinterest-sinks-5-as-month-long-slide-deepens-reddit-slips-snap-stays-put/",
+          "published_at": "2026-09-22T17:53:46+00:00"
         }
       ]
     }
