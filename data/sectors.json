@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-09-24T10:01:03.637310+09:00",
+  "generated_at": "2026-09-25T10:07:13.112758+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
-    "기술",
     "커뮤니케이션서비스",
-    "금융"
+    "임의소비재",
+    "기술"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 38.69,
-      "pct": 2.77,
-      "contribution": 1.0714,
-      "rank": 1,
+      "pct": 0.25,
+      "contribution": 0.0973,
+      "rank": 3,
       "news": [
         {
-          "title": "VGT Holders Bought ‘Tech’ and Own No Google, Meta, or Amazon: The Sector Rule That Decides What’s Inside",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/",
-          "published_at": "2026-09-22T22:15:04+00:00"
+          "title": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-leads-tech-stocks-lower-as-treasury-yields-surge-alphacheck-133744347.html",
+          "published_at": "2026-09-24T13:37:44+00:00"
         },
         {
           "title": "Lumentum Shares Are Up After an AI Optical Tech Partnership With Corning and Qualcomm. What This Means for LITE Stock.",
@@ -40,36 +40,17 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.06,
-      "pct": -1.97,
-      "contribution": -0.2373,
-      "rank": 3,
-      "news": [
-        {
-          "title": "Sensitive Sector: Why Are Upstart, Affirm, and SoFi Dropping Faster Than the Broader Equities Market?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases-2/",
-          "published_at": "2026-09-23T18:07:33+00:00"
-        },
-        {
-          "title": "Consumer Lending Stocks Slide While Financials Barely Budge: Upstart and Affirm Drop 4%, SoFi Eases",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases/",
-          "published_at": "2026-09-23T16:51:14+00:00"
-        },
-        {
-          "title": "Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)?",
-          "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/invest-state-street-financial-select-102002297.html",
-          "published_at": "2026-09-23T10:20:02+00:00"
-        }
-      ]
+      "pct": -0.47,
+      "contribution": -0.0572,
+      "rank": null,
+      "news": []
     },
     {
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.28,
-      "pct": 0.37,
-      "contribution": 0.0342,
+      "pct": -0.12,
+      "contribution": -0.0115,
       "rank": null,
       "news": []
     },
@@ -77,17 +58,36 @@
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.31,
-      "pct": 1.08,
-      "contribution": 0.1006,
-      "rank": null,
-      "news": []
+      "pct": -1.41,
+      "contribution": -0.1311,
+      "rank": 2,
+      "news": [
+        {
+          "title": "Doordash Just Dropped 16% in a Month. Is It Time to Sell or Load Up?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/23/doordash-just-dropped-16-in-a-month-is-it-time-to-sell-or-load-up/",
+          "published_at": "2026-09-23T19:29:12+00:00"
+        },
+        {
+          "title": "Domino’s Pizza Is Down 28% This Year. Is It Time to Sell or Load Up?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/23/dominos-pizza-is-down-28-this-year-is-it-time-to-sell-or-load-up/",
+          "published_at": "2026-09-23T19:23:09+00:00"
+        },
+        {
+          "title": "Ralph Lauren Stock: Is RL Outperforming the Consumer Cyclical Sector?",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4779224/ralph-lauren-stock-is-rl-outperforming-the-consumer-cyclical-sector",
+          "published_at": "2026-09-24T13:49:01+00:00"
+        }
+      ]
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.46,
-      "pct": -1.06,
-      "contribution": -0.0474,
+      "pct": 0.62,
+      "contribution": 0.0278,
       "rank": null,
       "news": []
     },
@@ -95,8 +95,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.48,
-      "pct": -1.09,
-      "contribution": -0.0379,
+      "pct": 0.96,
+      "contribution": 0.0332,
       "rank": null,
       "news": []
     },
@@ -104,8 +104,8 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 7.75,
-      "pct": 0.14,
-      "contribution": 0.0105,
+      "pct": 0.07,
+      "contribution": 0.0055,
       "rank": null,
       "news": []
     },
@@ -113,8 +113,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 1.98,
-      "pct": -1.07,
-      "contribution": -0.0212,
+      "pct": -2.24,
+      "contribution": -0.0443,
       "rank": null,
       "news": []
     },
@@ -122,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.68,
-      "pct": -0.56,
-      "contribution": -0.0094,
+      "pct": 1.15,
+      "contribution": 0.0193,
       "rank": null,
       "news": []
     },
@@ -131,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.8,
-      "pct": 0.14,
-      "contribution": 0.0025,
+      "pct": -1.76,
+      "contribution": -0.0317,
       "rank": null,
       "news": []
     },
@@ -140,27 +140,21 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.5,
-      "pct": 3.56,
-      "contribution": 0.3378,
-      "rank": 2,
+      "pct": -1.91,
+      "contribution": -0.1813,
+      "rank": 1,
       "news": [
         {
-          "title": "Pinterest Sinks 5% as Month-Long Slide Deepens; Reddit Slips, Snap Stays Put",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/22/pinterest-sinks-5-as-month-long-slide-deepens-reddit-slips-snap-stays-put/",
-          "published_at": "2026-09-22T17:53:46+00:00"
-        },
-        {
-          "title": "Paramount Skydance Rises 4% on 12-State Settlement, Warner Bros. Discovery Holds Flat as $110B Deal Nears Its Close",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/22/paramount-skydance-rises-4-on-12-state-settlement-warner-bros-discovery-holds-flat-as-110b-deal-nears-its-close/",
-          "published_at": "2026-09-22T15:00:17+00:00"
-        },
-        {
-          "title": "Stock Market News for Sep 22, 2026",
+          "title": "Meta Maps Out Muse Monetization Strategy: Tap With ETFs or Stock?",
           "publisher": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-22-133900165.html",
-          "published_at": "2026-09-22T13:39:00+00:00"
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-maps-muse-monetization-strategy-110000882.html",
+          "published_at": "2026-09-24T11:00:00+00:00"
+        },
+        {
+          "title": "How Is The Trade Desk's Stock Performance Compared to Other Communication Stocks",
+          "publisher": "Barchart",
+          "url": "https://www.barchart.com/story/news/4773545/how-is-the-trade-desk-s-stock-performance-compared-to-other-communication-stocks",
+          "published_at": "2026-09-24T10:54:36+00:00"
         }
       ]
     }
