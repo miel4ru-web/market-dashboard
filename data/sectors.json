@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-09-25T10:07:13.112758+09:00",
+  "generated_at": "2026-09-26T10:09:09.718316+09:00",
   "weight_source": "sp500_index",
   "top_n": 3,
   "top_sectors": [
+    "기술",
     "커뮤니케이션서비스",
-    "임의소비재",
-    "기술"
+    "헬스케어"
   ],
   "sectors": [
     {
       "label": "기술",
       "ticker": "XLK",
       "weight_pct": 38.69,
-      "pct": 0.25,
-      "contribution": 0.0973,
-      "rank": 3,
+      "pct": -0.32,
+      "contribution": -0.1248,
+      "rank": 1,
       "news": [
+        {
+          "title": "Dell Rises 7% as Morgan Stanley Lifts Odds on $756 Bull Case; Hewlett Packard Enterprise Edges Higher",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/25/dell-rises-7-as-morgan-stanley-lifts-odds-on-756-bull-case-hewlett-packard-enterprise-edges-higher/",
+          "published_at": "2026-09-25T17:51:27+00:00"
+        },
+        {
+          "title": "Microsoft Climbs 4% as Oppenheimer Lifts Target to $570 on Copilot Enterprise Pivot; Alphabet Ticks Up",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/25/microsoft-climbs-3-as-oppenheimer-lifts-target-to-570-on-copilot-enterprise-pivot-alphabet-ticks-up/",
+          "published_at": "2026-09-25T16:02:30+00:00"
+        },
         {
           "title": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",
           "publisher": "Yahoo Finance",
           "url": "https://finance.yahoo.com/markets/article/nvidia-leads-tech-stocks-lower-as-treasury-yields-surge-alphacheck-133744347.html",
           "published_at": "2026-09-24T13:37:44+00:00"
-        },
-        {
-          "title": "Lumentum Shares Are Up After an AI Optical Tech Partnership With Corning and Qualcomm. What This Means for LITE Stock.",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4762532/lumentum-shares-are-up-after-an-ai-optical-tech-partnership-with-corning-and-qualcomm-what-this-means-for-lite-stock",
-          "published_at": "2026-09-23T18:32:30+00:00"
-        },
-        {
-          "title": "Alphabet Drops 4%, Meta Edges Higher as AI Rotation Splits Big Tech; Microsoft Holds Flat",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/23/alphabet-drops-4-meta-edges-higher-as-ai-rotation-splits-big-tech-microsoft-holds-flat/",
-          "published_at": "2026-09-23T16:57:41+00:00"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "label": "금융",
       "ticker": "XLF",
       "weight_pct": 12.06,
-      "pct": -0.47,
-      "contribution": -0.0572,
+      "pct": -0.02,
+      "contribution": -0.0022,
       "rank": null,
       "news": []
     },
@@ -49,45 +49,45 @@
       "label": "헬스케어",
       "ticker": "XLV",
       "weight_pct": 9.28,
-      "pct": -0.12,
-      "contribution": -0.0115,
-      "rank": null,
-      "news": []
+      "pct": 0.63,
+      "contribution": 0.0588,
+      "rank": 3,
+      "news": [
+        {
+          "title": "Humana Jumps 7% on Barclays Upgrade and $515 Target; UnitedHealth Nudges Higher",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/25/humana-jumps-7-on-barclays-upgrade-and-515-target-unitedhealth-nudges-higher/",
+          "published_at": "2026-09-25T17:59:09+00:00"
+        },
+        {
+          "title": "Innovation Is Driving a New Bull Market in Biotech. 16 Ways to Play It, From Our Roundtable Experts.",
+          "publisher": "Barrons.com",
+          "url": "https://www.barrons.com/articles/biotech-healthcare-stocks-roundtable-057abe29?siteid=yhoof2&yptr=yahoo",
+          "published_at": "2026-09-25T15:39:00+00:00"
+        },
+        {
+          "title": "Stock Market News for Sep 25, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-25-122000223.html",
+          "published_at": "2026-09-25T12:20:00+00:00"
+        }
+      ]
     },
     {
       "label": "임의소비재",
       "ticker": "XLY",
       "weight_pct": 9.31,
-      "pct": -1.41,
-      "contribution": -0.1311,
-      "rank": 2,
-      "news": [
-        {
-          "title": "Doordash Just Dropped 16% in a Month. Is It Time to Sell or Load Up?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/23/doordash-just-dropped-16-in-a-month-is-it-time-to-sell-or-load-up/",
-          "published_at": "2026-09-23T19:29:12+00:00"
-        },
-        {
-          "title": "Domino’s Pizza Is Down 28% This Year. Is It Time to Sell or Load Up?",
-          "publisher": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/23/dominos-pizza-is-down-28-this-year-is-it-time-to-sell-or-load-up/",
-          "published_at": "2026-09-23T19:23:09+00:00"
-        },
-        {
-          "title": "Ralph Lauren Stock: Is RL Outperforming the Consumer Cyclical Sector?",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4779224/ralph-lauren-stock-is-rl-outperforming-the-consumer-cyclical-sector",
-          "published_at": "2026-09-24T13:49:01+00:00"
-        }
-      ]
+      "pct": -0.3,
+      "contribution": -0.0278,
+      "rank": null,
+      "news": []
     },
     {
       "label": "필수소비재",
       "ticker": "XLP",
       "weight_pct": 4.46,
-      "pct": 0.62,
-      "contribution": 0.0278,
+      "pct": -0.89,
+      "contribution": -0.0395,
       "rank": null,
       "news": []
     },
@@ -95,8 +95,8 @@
       "label": "에너지",
       "ticker": "XLE",
       "weight_pct": 3.48,
-      "pct": 0.96,
-      "contribution": 0.0332,
+      "pct": 0.37,
+      "contribution": 0.0128,
       "rank": null,
       "news": []
     },
@@ -104,8 +104,8 @@
       "label": "산업재",
       "ticker": "XLI",
       "weight_pct": 7.75,
-      "pct": 0.07,
-      "contribution": 0.0055,
+      "pct": -0.75,
+      "contribution": -0.0579,
       "rank": null,
       "news": []
     },
@@ -113,8 +113,8 @@
       "label": "유틸리티",
       "ticker": "XLU",
       "weight_pct": 1.98,
-      "pct": -2.24,
-      "contribution": -0.0443,
+      "pct": -0.98,
+      "contribution": -0.0194,
       "rank": null,
       "news": []
     },
@@ -122,8 +122,8 @@
       "label": "소재",
       "ticker": "XLB",
       "weight_pct": 1.68,
-      "pct": 1.15,
-      "contribution": 0.0193,
+      "pct": -1.19,
+      "contribution": -0.02,
       "rank": null,
       "news": []
     },
@@ -131,8 +131,8 @@
       "label": "부동산",
       "ticker": "XLRE",
       "weight_pct": 1.8,
-      "pct": -1.76,
-      "contribution": -0.0317,
+      "pct": -0.45,
+      "contribution": -0.0082,
       "rank": null,
       "news": []
     },
@@ -140,21 +140,27 @@
       "label": "커뮤니케이션서비스",
       "ticker": "XLC",
       "weight_pct": 9.5,
-      "pct": -1.91,
-      "contribution": -0.1813,
-      "rank": 1,
+      "pct": 1.27,
+      "contribution": 0.1207,
+      "rank": 2,
       "news": [
+        {
+          "title": "Comcast Slips as KeyBanc Cuts to Underweight on Broadband Share Losses; AT&T and Verizon Hold Steady",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/25/comcast-slips-as-keybanc-cuts-to-underweight-on-broadband-share-losses-att-and-verizon-hold-steady/",
+          "published_at": "2026-09-25T13:50:50+00:00"
+        },
+        {
+          "title": "Stock Market News for Sep 25, 2026",
+          "publisher": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-25-122000223.html",
+          "published_at": "2026-09-25T12:20:00+00:00"
+        },
         {
           "title": "Meta Maps Out Muse Monetization Strategy: Tap With ETFs or Stock?",
           "publisher": "Zacks",
           "url": "https://finance.yahoo.com/technology/ai/articles/meta-maps-muse-monetization-strategy-110000882.html",
           "published_at": "2026-09-24T11:00:00+00:00"
-        },
-        {
-          "title": "How Is The Trade Desk's Stock Performance Compared to Other Communication Stocks",
-          "publisher": "Barchart",
-          "url": "https://www.barchart.com/story/news/4773545/how-is-the-trade-desk-s-stock-performance-compared-to-other-communication-stocks",
-          "published_at": "2026-09-24T10:54:36+00:00"
         }
       ]
     }
